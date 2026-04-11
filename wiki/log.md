@@ -20,6 +20,29 @@ Each entry follows this format:
 
 ---
 
+### 2026-04-12 03:00 — Ingest: raw/2026-02-03_report_private-credit-market-overview.pdf
+
+- **Source/Trigger**: 사용자 명령 `/pdf @raw/2026-02-03_report_private-credit-market-overview.pdf`
+- **출처**: KCIF Issue Analysis, "미국 사모대출(private credit) 시장 현황과 위험요인", 김선경·김윤경, 2026년 2월 3일
+- **Pages created**:
+  - `wiki/summaries/kcif-private-credit-market-overview-260203.md`
+  - `wiki/concepts/shadow-default.md` — 그림자 파산 개념 (신규)
+  - `wiki/concepts/pik-payment-in-kind.md` — PIK 현물 지급 개념 (신규)
+- **Pages updated**:
+  - `wiki/concepts/private-credit.md` — 시장 규모·섹터·스프레드 데이터, 그림자 파산·PIK·보험사 연계 리스크 추가
+  - `wiki/concepts/business-development-company.md` — 반유동적 BDC 환매 메커니즘 및 2025년 4분기 사례 추가
+  - `wiki/index.md`, `wiki/log.md`
+- **Notes**:
+  - KCIF 신뢰 출처 적용: 모든 클레임 high confidence.
+  - 핵심 수치: 글로벌 $2.3조(2025년, Preqin), 미국 70%+, 스프레드 475bp(역사적 저점), 부도율 2.46%(Q4 2025), PIK 비중 10.6% 중 Bad PIK 57.2%.
+  - 은행 측: 사모대출 기관 대출 $3,140억 = NBFI 대출의 26%; Fitch 10대 은행 익스포저 자본의 30%.
+  - 보험사 측: 생보사 사모대출·PE 보유 $4,604억(2018) → $9,506억(2024); 운용사 계열 생보사 Level III 자산 23.7%.
+  - AI 연관: 포트폴리오 25~35%(UBS); Meta·Blue Owl $270억 ABL(부외 부채).
+  - 모순 없음. bisbull106(BIS)의 구조적 분석을 KCIF의 시장 데이터와 위험 사례로 구체화함.
+  - 핵심 인사이트: 공식 부도율이 낮아 보여도 Bad PIK 비중 급증이 실질 부실 확대를 시사. 서브프라임 유사성 경고(BOE 총재, BofA 설문).
+
+---
+
 ### 2026-04-12 02:00 — Synthesis: 아시아 달러 익스포저 전략 비교
 
 - **Source/Trigger**: 사용자 요청 — ingest 후 도출된 인사이트 저장

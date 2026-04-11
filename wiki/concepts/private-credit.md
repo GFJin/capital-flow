@@ -3,8 +3,8 @@ title: "프라이빗 크레딧 (Private Credit)"
 type: concept
 tags: [private-equity, bonds, portfolio-flow, liquidity, interest-rate, us, developed-markets, structural, foundational, well-established]
 created: 2026-04-11
-updated: 2026-04-11
-sources: ["raw/bisbull106.pdf"]
+updated: 2026-04-12
+sources: ["raw/bisbull106.pdf", "raw/2026-02-03_report_private-credit-market-overview.pdf"]
 confidence: high
 ---
 
@@ -37,11 +37,16 @@ confidence: high
 
 | 파라미터 | 설명 |
 |---------|------|
-| **AUM** | 2.2조 달러 이상(2025년 기준); 2010년 1,000억 달러에서 22배 성장 |
-| **직접대출 잔액** | 1.2조 달러 이상 |
+| **글로벌 AUM** | $2.3조(2025년, Preqin) / $3.1조(Goldman Sachs 추정); 2020년 $1.2조에서 급증 |
+| **미국 비중** | 글로벌의 70% 이상 ($1.3조~$1.5조, 2024년 기준) |
+| **직접대출 잔액** | 1.2조 달러 이상 (미국) |
 | **대출 만기** | 통상 4~6년 |
 | **리테일 비중** | 2010년 거의 0% → 현재 약 13%(약 2,800억 달러) |
 | **주요 리테일 접근 수단** | BDC, 프라이빗 크레딧 ETF |
+| **발행 스프레드 (2025년 3분기)** | 475bp (SOFR 대비 중간값, 역사적 저점); 2023년 1분기 625bp에서 축소 |
+| **공식 부도율 (2025년 4분기)** | 2.46%; 실질 부도율은 [[concepts/shadow-default]] 참조 |
+| **주요 섹터 (2025년 미국 신규 발행)** | 헬스케어 19%, 기술 19%, 서비스/리스 16%, 제조/기계 8% |
+| **AI 관련 비중** | 글로벌 기준 7%(2025년, BIS); 2015년 1%에서 증가 |
 
 ## 활용 시점
 
@@ -52,19 +57,28 @@ confidence: high
 ## 리스크 및 함정
 
 - **비유동성**: 스트레스 시 대출을 매각하기 어려워 가격 발견이 지연되고, 평가 가치가 불투명하다.
-- **불투명한 가치평가**: 시장가 없이 모델 기반(through-the-cycle) 가치평가에 의존 → 실제 손실이 늦게 인식될 위험.
+- **불투명한 가치평가(Mark-to-Model)**: 시장가 없이 개별 기관 내부 모델에 의존 → 실제 손실이 늦게 인식될 위험. First Brands, Renovo 사례에서 BlackRock이 파산 직전까지 원금 100%로 평가. FSB·미국 법무부가 "mark-to-myth"로 비판.
+- **그림자 파산**: 공식 부도율(2025년 4분기 2.46%)이 낮아 보이지만, 만기 연장·조건 조정·PIK 전환을 통해 실질 부도가 숨겨진다. Bad PIK 비중 2021년 36.7% → 2025년 3분기 57.2%로 급증. [[concepts/shadow-default]] 참조.
+- **PIK 리스크**: PIK 비중 증가(7.0%→10.6%)는 차입자의 현금흐름 악화를 시사. 이자가 원금에 복리 가산되어 만기 부채 눈덩이 효과. [[concepts/pik-payment-in-kind]] 참조.
 - **레버리지 경기순응성**: BDC 등 리테일 접근 수단이 경기순응적 레버리지를 사용하여 경기 하강 시 신용 공급을 급격히 축소할 수 있다. [[concepts/procyclical-leverage]] 참조.
-- **은행-NBFI 전염**: 프라이빗 크레딧 펀드의 은행 신용한도 의존도 증가로 프라이빗 시장 경색이 은행으로 전파될 수 있다. [[concepts/rollover-risk]] 참조.
+- **은행-NBFI 전염**: 미국 은행의 사모대출 기관 익스포저 $3,140억(NBFI 대출의 26%); Fitch는 10대 은행의 직접 익스포저를 자본의 30%로 추정. [[concepts/rollover-risk]] 참조.
+- **보험사 상호연계**: 미국 생보사의 사모대출·사모채권 보유액 $4,604억(2018) → $9,506억(2024). 사모대출 운용사 계열 보험사의 Level III 자산 비중 23.7%(일반 보험사 5.8%의 4배).
+- **신용등급 쇼핑**: 보험사들이 규제 자본 적립 부담 축소를 위해 소형 신평사의 유리한 등급을 선택. SEC가 Egan-Jones 조사 중.
 - **리테일 개방의 딜레마**: 유동화(ETF, 2차 시장)가 프라이빗 크레딧의 핵심 가치(유연성, 유동성 프리미엄, 사이클 관통 투자)를 훼손할 수 있다.
+- **AI 집중 리스크**: 포트폴리오의 25~35%가 AI 관련(UBS). hyperscaler 주가 급락 등 AI 버블 붕괴 시 직격.
+- **서브프라임 유사성**: BofA 2026년 1월 Fund Manager Survey — 응답자 39%가 시스템적 신용위기 촉발 최대 위험으로 사모펀드·사모대출 지목.
 
 ## 관련 개념
 
-- [[concepts/business-development-company]] — 리테일 투자자의 주요 접근 경로; 폐쇄형 상장 구조
+- [[concepts/business-development-company]] — 리테일 투자자의 주요 접근 경로; 반유동적 BDC 환매 급증 사례
 - [[concepts/private-credit-etf]] — 2025년 등장한 새 리테일 접근 수단; 유동성 불일치 리스크 내포
 - [[concepts/liquidity-mismatch]] — 프라이빗 크레딧 ETF의 핵심 구조적 리스크
 - [[concepts/procyclical-leverage]] — BDC 레버리지의 특성
 - [[concepts/rollover-risk]] — 은행 신용한도 의존에서 비롯된 자금조달 리스크
+- [[concepts/shadow-default]] — 공식 부도율 뒤에 숨은 실질 부도 메커니즘
+- [[concepts/pik-payment-in-kind]] — 이자 지급 유예를 통한 부채 누적 도구
 
 ## 출처
 
-- [[summaries/bisbull106]] — BIS Bulletin No. 106 (2025년 7월): 프라이빗 크레딧의 리테일 개방 분석의 1차 출처
+- [[summaries/bisbull106]] — BIS Bulletin No. 106 (2025년 7월): 프라이빗 크레딧의 리테일 개방 분석
+- [[summaries/kcif-private-credit-market-overview-260203]] — KCIF 2026-02-03: 시장 규모·섹터·스프레드·위험요인 상세 데이터
