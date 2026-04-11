@@ -3,5 +3,10 @@
   "dataview",
   "calendar",
   "obsidian-git",
-  "obsidian-icon-folder"
+  "obsidian-icon-folder",
+  "obsidian-spaced-repetition",
+  "obsidian-chartsview-plugin",
+  "marp-slides",
+  "obsidian-minimal-settings",
+  "obsidian-latex-suite"
 ]

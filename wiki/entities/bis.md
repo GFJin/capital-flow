@@ -1,0 +1,57 @@
+---
+title: "BIS — 국제결제은행 (Bank for International Settlements)"
+type: entity
+tags: [central-bank, liquidity, fx, bonds, dollar-cycle, developed-markets, quantitative, qualitative, foundational, well-established]
+created: 2026-04-11
+updated: 2026-04-11
+sources: ["raw/bisbull105.md"]
+confidence: high
+---
+
+# BIS — 국제결제은행 (Bank for International Settlements)
+
+**서브타입**: 국제금융기구 / 리서치 기관 (신뢰 출처)
+
+## 개요
+
+국제결제은행(BIS)은 스위스 바젤에 본부를 둔 국제기구로, 통화·금융 안정을 추구하는 중앙은행들에 서비스를 제공한다. 1930년에 설립된 세계 최고(最古)의 국제금융기구다. BIS는 중앙은행들의 은행으로서, 국제 통화 협력의 포럼으로서, 그리고 글로벌 금융 통계와 정책 연구의 선도적 생산 기관으로서 역할을 수행한다.
+
+본 지식베이스 스키마에 따라 BIS는 **신뢰 출처**로 지정되어 있으며, BIS 발간물에서 인용된 주장은 confidence 등급이 한 단계 상향 적용된다.
+
+## 정책 입장
+
+BIS 자체는 통화정책을 설정하지 않는다 — 그것은 회원 중앙은행들의 영역이다. 그러나 BIS 리서치 부문(Head of Research)은 영향력 있는 정책 지향 분석을 생산한다. 2025년 현재 BIS 리서치 총괄은 Hyun Song Shin으로, BIS Bulletin No. 105(FX 헤징과 달러 약세)의 공동 저자다.
+
+BIS의 분석적 입장은 대체로 다음을 강조한다:
+- 금융 중개, 특히 크로스보더 중개에서 비롯되는 시스템 리스크
+- 글로벌 금융에서 달러 지배력이 만들어내는 취약성
+- OTC 파생상품 시장 모니터링의 중요성 (숨겨진 레버리지 추적)
+
+## 주요 도구 / 데이터 상품
+
+| 상품 | 설명 |
+|-----|------|
+| **BIS OTC 파생상품 통계** | 반기별 OTC 파생상품 명목가액·시장가치; FX 스왑·포워드 데이터의 핵심 출처 |
+| **BIS 위치별 은행 통계(LBS)** | 통화·상대국별 크로스보더 은행 채권·부채 |
+| **BIS 3년 주기 중앙은행 서베이** | 3년마다 실시; 글로벌 FX·OTC 파생상품 거래량 종합 조사 |
+| **BIS 분기보고서(Quarterly Review)** | 정책 분석, 특별 기고, 통계 업데이트 |
+| **BIS 워킹페이퍼** | 연구 논문; Bulletin No. 105 인용: Nenova et al. 2025 (글로벌 포트폴리오 투자) |
+| **BIS 불레틴(Bulletins)** | 단기 정책 노트; BIS Bulletin No. 105가 해당 |
+
+**Bulletin No. 105 인용 주요 통계** (2024년 말):
+- FX 파생상품 명목 잔액: **130조 달러** (크로스보더 채권 잔액의 약 3배)
+- 계약의 약 90%가 한쪽에 달러 참조
+- 비은행 금융기관: 전체 FX 계약의 약 60% 차지 (15년 전 45%에서 증가)
+
+## 자본 흐름 관련 주요 발간물 이력
+
+- **McGuire et al. (2021)**: "아시아 신흥국의 해외 포트폴리오 투자와 달러 자금조달" — BIS 분기보고서 2021년 12월. 아시아 기관 헤징에 내재된 롤오버 리스크 분석의 핵심 참고문헌.
+- **Nenova, Schrimpf & Shin (2025)**: "글로벌 포트폴리오 투자와 FX 파생상품" — BIS 워킹페이퍼 No. 1273, 2025년 6월. 헤지 비율, 수익률 곡선 기울기, 자본 흐름 간의 실증적 연결고리 확립.
+- **BIS Bulletin No. 105 (2025)**: "2025년 4월 달러 약세: FX 헤징의 역할." 2025년 4월 '트리플 하락' 에피소드의 핵심 진단 문서.
+- **BIS Bulletin No. 106 (2025)**: "프라이빗 크레딧의 리테일 투자자 참여." BDC 레버리지 리스크, 프라이빗 크레딧 ETF의 유동성 불일치, 은행-NBFI 연계 분석.
+- GFC(2008)·코로나19(2020) 중앙은행 스왑 라인 조정: BIS는 Fed의 통화 스왑 라인 가동 결정을 뒷받침하는 분석 포럼 역할을 수행.
+
+## 관련 엔티티
+
+- [[entities/japanese-life-insurers]] — BIS 연구에서 주요 사례로 다루는 아시아 기관투자자
+- [[entities/taiwanese-life-insurers]] — BIS Bulletin No. 105의 핵심 사례 분석 대상

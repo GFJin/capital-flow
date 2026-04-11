@@ -1,0 +1,132 @@
+---
+title: "Activity Log"
+type: log
+---
+
+# Activity Log
+
+Append-only record of all wiki changes.
+
+## Format
+
+Each entry follows this format:
+```
+### YYYY-MM-DD HH:MM — [Action Type]
+- **Source/Trigger**: what initiated the action
+- **Pages created**: list of new pages
+- **Pages updated**: list of updated pages
+- **Notes**: any contradictions flagged, decisions made
+```
+
+---
+
+### 2026-04-12 02:00 — Synthesis: 아시아 달러 익스포저 전략 비교
+
+- **Source/Trigger**: 사용자 요청 — ingest 후 도출된 인사이트 저장
+- **Pages created**: `wiki/syntheses/asia-dollar-exposure-strategies.md`
+- **Pages updated**: `wiki/index.md`, `wiki/log.md`
+- **Notes**:
+  - 핵심 인사이트: 일본·대만은 "달러 자산 축적자"(사후 헤징 위험), 중국은 "달러 자산 매수자"(점진적·구조적). 달러 약세 전환 시 두 그룹이 서로 다른 메커니즘으로 달러 약세를 강화.
+  - GPIF는 생보사와 달리 사후 헤징 없이 리밸런싱 경로(채권 시장)로만 작동 — 중요한 구분.
+  - 대만의 이중 포지션(사후 헤징 압력 + EM ex-China 수혜) 간 충돌 가능성 첫 명시.
+
+---
+
+### 2026-04-12 01:00 — Ingest: raw/260325-중국+내외국인.pdf
+
+- **Source/Trigger**: 사용자 명령 `ingest raw/260325-중국+내외국인.pdf`
+- **출처**: KCIF Issue Analysis, "중국의 내외국인 증권투자 순유출 확대 및 평가", 이은재·신술위, 2026년 3월 25일
+- **Pages created**:
+  - `wiki/summaries/kcif-china-capital-outflow-260325.md`
+  - `wiki/entities/china.md`
+  - `wiki/concepts/qdii.md`
+  - `wiki/concepts/southbound-trading.md`
+  - `wiki/concepts/em-ex-china.md`
+- **Pages updated**: `wiki/entities/kcif.md` (새 발간물 추가), `wiki/concepts/dollar-cycle.md` (중국 디커플링 섹션 추가), `wiki/index.md`, `wiki/log.md`
+- **Notes**:
+  - KCIF 신뢰 출처 적용: 모든 클레임 high confidence.
+  - 핵심 수치: 2025년 순유출 3,577억달러(역대 최대), 내국인 해외투자 3,046억달러(역대 최대), 남향자금 HKD 1.4조(최고치), QDII AUM +54%.
+  - 모순 없음. 기존 달러 사이클 페이지(bisbull105 기반)에 중국 디커플링 및 위안화 강세 메커니즘을 보완적으로 추가.
+  - 새 연결: china → dollar-cycle, rollover-risk(NCD 유출 구조), em-ex-china(한국·대만 수혜 맥락).
+  - 주목할 신규 패턴: 중국 본토자금이 홍콩 경유 글로벌 주식 ETF(미국 주식 포함)에 투자하는 우회 경로 확인.
+
+---
+
+### 2026-04-12 00:00 — Ingest: raw/260326-일본+GPIF+포트폴리오+조정+가능성.pdf
+
+- **Source/Trigger**: 사용자 명령 `ingest raw/260326-일본+GPIF+포트폴리오+조정+가능성.pdf`
+- **출처**: KCIF Issue Analysis, "일본 GPIF 포트폴리오 조정 가능성 관련 쟁점 점검", 신술위·이은재, 2025년 3월 26일
+- **Pages created**:
+  - `wiki/summaries/kcif-gpif-portfolio-260326.md`
+  - `wiki/entities/gpif.md`
+  - `wiki/entities/kcif.md`
+- **Pages updated**: `wiki/concepts/hedge-ratio.md` (GPIF 환헤지 비율 1.2% 데이터 추가), `wiki/index.md`, `wiki/log.md`
+- **Notes**:
+  - KCIF 신뢰 출처 적용: 모든 클레임 high confidence.
+  - 핵심 수치: GPIF AUM 293.4조엔, 환헤지 비율 사실상 0%(1.2% → 추가 축소), 해외자산 50.3%(미국 채권 53%, 주식 66%), 목표비중 ±1%p 내 엄격 준수.
+  - 기존 `hedge-ratio` 개념 페이지에 GPIF 데이터(일본 생보사 40%와 극명히 대비되는 ~0%) 추가 — 동일 개념을 보강하는 새 증거.
+  - 모순 없음. 일본 생보사의 헤지 비율 하락(60→40%)과 GPIF의 구조적 무헤지는 상호 보완적 데이터.
+  - 한·미·일 삼각 관계(미 재무부의 GPIF 자금흐름 주시)가 자본흐름 맥락에서 새로운 지정학적 차원을 추가.
+
+---
+
+### 2026-04-11 02:00 — Ingest: raw/bisbull106.pdf
+
+- **Source/Trigger**: 사용자 명령 `ingest raw/bisbull106.pdf`
+- **출처**: BIS Bulletin No. 106, "Retail investors in private credit", Aldasoro/Doerr/Todorov, 2025년 7월 9일
+- **Pages created**:
+  - `wiki/summaries/bisbull106.md`
+  - `wiki/concepts/private-credit.md`
+  - `wiki/concepts/business-development-company.md`
+  - `wiki/concepts/private-credit-etf.md`
+  - `wiki/concepts/liquidity-mismatch.md`
+  - `wiki/concepts/procyclical-leverage.md`
+- **Pages updated**: `wiki/entities/bis.md` (Bulletin No. 106 항목 추가), `wiki/index.md`, `wiki/log.md`
+- **Notes**:
+  - 기존 위키 내용과 모순 없음. `rollover-risk` 개념이 기존(bisbull105 기반)에 있어 새 출처의 은행-NBFI 연계 맥락으로 연결됨.
+  - BIS 신뢰 출처 적용: 주요 수치(AUM 2.2조 달러, BDC D/E 3배 증가, 은행 NBFI 신용공여 2.3조 달러 등) high confidence 처리.
+  - `private-credit-etf`는 2025년 초 첫 출시로 스트레스 검증 데이터가 없어 confidence를 medium으로 설정.
+  - 핵심 수치: BDC D/E 비율 30%→90%(15년간), 리테일 AUM 비중 0%→13%(280억 달러), 프라이빗 크레딧 ETF 비유동 자산 비중 10~35%, ETF 비용 약 0.7%.
+
+---
+
+### 2026-04-11 01:00 — 한국어 재작성
+
+- **Source/Trigger**: 사용자 요청 — 모든 위키 페이지를 한국어로 재작성
+- **Pages created**: 없음
+- **Pages updated**: summaries/bisbull105.md, concepts/fx-hedging.md, concepts/ex-post-hedging.md, concepts/cross-currency-basis.md, concepts/hedge-ratio.md, concepts/dollar-cycle.md, concepts/rollover-risk.md, entities/bis.md, entities/japanese-life-insurers.md, entities/taiwanese-life-insurers.md (10개 전체)
+- **Notes**: 내용·구조·링크는 그대로 유지; 본문 언어만 영어→한국어로 전환. 향후 모든 위키 작성은 한국어로 진행.
+
+---
+
+### 2026-04-11 00:00 — Ingest: raw/bisbull105.md
+
+- **Source/Trigger**: User command `ingest raw/bisbull105.md`
+- **Source**: BIS Bulletin No. 105, "US dollar's slide in April 2025: the role of FX hedging", Shin/Wooldridge/Xia, 20 June 2025
+- **Pages created**:
+  - `wiki/summaries/bisbull105.md`
+  - `wiki/concepts/fx-hedging.md`
+  - `wiki/concepts/ex-post-hedging.md`
+  - `wiki/concepts/cross-currency-basis.md`
+  - `wiki/concepts/hedge-ratio.md`
+  - `wiki/concepts/dollar-cycle.md`
+  - `wiki/concepts/rollover-risk.md`
+  - `wiki/entities/bis.md`
+  - `wiki/entities/japanese-life-insurers.md`
+  - `wiki/entities/taiwanese-life-insurers.md`
+- **Pages updated**: `wiki/index.md`, `wiki/log.md`
+- **Notes**:
+  - No contradictions with existing wiki content (wiki was empty at time of ingest).
+  - BIS is a trusted source per schema; all claims from this bulletin receive elevated confidence (high).
+  - Key quantitative claims: Japanese life insurer hedge ratio 60%→40% (2021–2024) per BOJ FSR April 2025; Taiwanese life insurer hedge ratio ~65% near historic lows per BofA Global Research 2025.
+  - Intraday FX data and cross-currency basis movements cited as corroborating evidence for ex post hedging thesis (not asset-selling).
+  - April 2025 TIC outflow of ~$50bn noted as not exceptional by historical standards.
+
+---
+
+### 2026-04-08 00:00 — Setup
+
+- **Source/Trigger**: Repository initialized
+- **Pages created**: index.md, log.md, dashboard.md, analytics.md, flashcards.md
+- **Pages updated**: none
+- **Notes**: Empty knowledge base ready for first source ingestion
