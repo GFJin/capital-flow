@@ -3,8 +3,8 @@ title: "유동성 불일치 (Liquidity Mismatch)"
 type: concept
 tags: [liquidity, private-equity, bonds, portfolio-flow, us, developed-markets, structural, advanced, well-established]
 created: 2026-04-11
-updated: 2026-04-11
-sources: ["raw/bisbull106.pdf"]
+updated: 2026-04-12
+sources: ["raw/bisbull106.pdf", "raw/비은행 금융중개의 취약성과 시스템 리스크 관리 방안.md"]
 confidence: high
 ---
 
@@ -54,6 +54,7 @@ confidence: high
 - **강매 전이**: AP나 자산운용사가 ETF 할인 해소를 위해 기초 자산을 강매하면, 가격 하락이 시장 전체로 전파될 수 있음.
 - **가치평가 불신**: ETF 할인이 지속되면 "NAV가 실제 가치를 반영하는가"에 대한 의문이 제기되어 관련 펀드 전반의 신뢰를 훼손.
 - **구조 설계의 딜레마**: 유동성 불일치를 해소하기 위해 기초 자산을 유동화하면, 프라이빗 크레딧의 핵심 장점(유연성, 유동성 프리미엄)이 훼손될 수 있음. [[concepts/private-credit-etf]] 참조.
+- **LMT 미비**: 개방형 펀드가 스트레스 상황에 대비한 유동성 관리 도구(LMT — 스윙 프라이싱, 환매 제한, 사이드포켓 등)를 선제적으로 갖추지 않으면, 시장 혼란 시 강제 청산이 불가피해진다. IMF는 규제 당국이 LMT 도입을 의무화하도록 권고했다.
 
 ## 관련 개념
 
@@ -65,3 +66,4 @@ confidence: high
 ## 출처
 
 - [[summaries/bisbull106]] — BIS Bulletin No. 106 (2025년 7월): 프라이빗 크레딧 ETF의 유동성 불일치 분석 및 할인 메커니즘
+- [[summaries/nbfi-systemic-risk]] — IMF GFSR·ECB 분석 (2024~2025): 개방형 펀드의 유동성 불일치 리스크, 유동성 관리 도구(LMT, Liquidity Management Tools) 선제적 확보 권고

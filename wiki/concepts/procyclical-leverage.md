@@ -3,8 +3,8 @@ title: "경기순응적 레버리지 (Procyclical Leverage)"
 type: concept
 tags: [liquidity, portfolio-flow, interest-rate, risk-appetite, us, developed-markets, structural, cyclical, advanced, well-established]
 created: 2026-04-11
-updated: 2026-04-11
-sources: ["raw/bisbull106.pdf"]
+updated: 2026-04-12
+sources: ["raw/bisbull106.pdf", "raw/비은행 금융중개의 취약성과 시스템 리스크 관리 방안.md"]
 confidence: high
 ---
 
@@ -53,6 +53,7 @@ confidence: high
 - **규제 과신**: D/E 2 이하 규제가 모델 기반 자산 평가와 결합될 경우 실질 레버리지를 과소평가할 수 있음.
 - **은행 전염**: BDC 부채의 주요 공급원인 은행이 NBFI 경색 시 동시에 압박을 받는 구조.
 - **불투명성**: 보유 자산과 부채 구조의 세부 공시가 부족하여 시스템 레버리지 집계가 어렵다.
+- **숨겨진 레버리지(Hidden Leverage)**: 헤지펀드 등이 장외(OTC) 파생상품을 통해 대차대조표에 드러나지 않는 레버리지를 구축하는 경우, 전통적인 D/E 비율 모니터링만으로는 실제 시스템 레버리지를 크게 과소평가할 수 있다. IMF와 ECB는 이를 NBFI 부문의 가장 심각한 데이터 공백 문제로 지적한다.
 - **속도와 규모**: 경기순응적 조정이 빠른 속도와 큰 규모로 이루어질 경우, 정책 대응보다 앞서 시장 파급이 발생할 수 있음.
 
 ## 관련 개념
@@ -61,7 +62,11 @@ confidence: high
 - [[concepts/private-credit]] — BDC가 보유하는 기초 자산 클래스
 - [[concepts/liquidity-mismatch]] — 유동성 불일치와 함께 프라이빗 크레딧의 두 가지 핵심 구조적 리스크
 - [[concepts/rollover-risk]] — 단기 부채 조달에서 비롯된 관련 자금조달 리스크
+- [[concepts/quant-meltdown]] — 2007년 퀀트 멜트다운: 경기순응적 레버리지 해소가 피드백 루프로 이어진 실증 사례
+- [[concepts/crowded-trade]] — 과밀 거래: 경기순응적 레버리지가 집중된 상태에서 청산 시 충격 배가
 
 ## 출처
 
 - [[summaries/bisbull106]] — BIS Bulletin No. 106 (2025년 7월): BDC 레버리지 추이, 경기순응성 실증, 2025년 4월 에피소드
+- [[summaries/nbfi-systemic-risk]] — IMF GFSR·ECB 분석 (2024~2025): 헤지펀드 OTC 파생상품을 통한 "숨겨진 레버리지(hidden leverage)"가 대차대조표에 포착되지 않는 시스템 리스크 강조
+- [[summaries/hedge-fund-industry-analysis]] — Khandani & Lo 퀀트 멜트다운 연구: 과밀 거래 청산이 경기순응적 레버리지 해소와 결합해 피드백 루프를 형성하는 2007년 실증 사례

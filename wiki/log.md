@@ -20,6 +20,72 @@ Each entry follows this format:
 
 ---
 
+### 2026-04-12 — Ingest: raw/비은행 금융중개의 취약성과 시스템 리스크 관리 방안.md
+
+- **Source/Trigger**: 사용자 명령 `ingest @raw/비은행 금융중개의 취약성과 시스템 리스크 관리 방안.md`
+- **출처**: IMF GFSR(2024년 10월·2025년 10월) 및 ECB NBFI 분석 보고서 종합 정리
+- **Pages created**:
+  - `wiki/summaries/nbfi-systemic-risk.md` — 요약 페이지
+  - `wiki/concepts/nbfi.md` — 비은행 금융중개기관(NBFI) 개념 (신규)
+  - `wiki/concepts/macro-market-divergence.md` — 거시-시장 괴리 개념 (신규)
+  - `wiki/concepts/monetary-policy-transmission.md` — 통화정책 전파 경로 개념 (신규)
+  - `wiki/entities/imf.md` — IMF 엔티티 (신뢰 출처 등재, 신규)
+  - `wiki/entities/ecb.md` — ECB 엔티티 (신규)
+- **Pages updated**:
+  - `wiki/concepts/procyclical-leverage.md` — 숨겨진 레버리지(OTC 파생상품) 섹션 추가
+  - `wiki/concepts/liquidity-mismatch.md` — LMT(유동성 관리 도구) 선제적 확보 필요성 추가
+  - `wiki/index.md` (통계 및 목록 업데이트)
+- **Notes**:
+  - 핵심 수치: 유로존 NBFI GDP 대비 380%, 미국 330%. 전 세계 금융자산의 50%가 NBFI.
+  - 거시-시장 괴리(Macro-Market Divergence)는 IMF의 핵심 경고 프레임워크 — 기존 위키에 없던 신규 개념.
+  - NBFI 페이지는 bisbull106에서 BDC·프라이빗 크레딧 맥락으로 이미 등장했으나, 이번에 전용 개념 페이지 신설.
+  - ECB·IMF를 신뢰 출처로 등재 → 향후 해당 기관 인용 클레임에 confidence 상향 적용.
+  - 모순 없음. 기존 NBFI 관련 페이지(procyclical-leverage, liquidity-mismatch, private-credit)와 일관성 유지.
+
+---
+
+### 2026-04-12 — Ingest: raw/헤지펀드 산업 분석 및 시장 역학 브리핑 보고서.md
+
+- **Source/Trigger**: 사용자 명령 `ingest @raw/헤지펀드 산업 분석 및 시장 역학 브리핑 보고서.md`
+- **출처**: Wall Street Prep, 50 South Capital, Khandani & Lo(2007 퀀트 멜트다운 연구) 종합 브리핑
+- **Pages created**:
+  - `wiki/summaries/hedge-fund-industry-analysis.md` — 요약 페이지
+  - `wiki/concepts/hedge-fund.md` — 헤지펀드 구조·전략·수수료·고금리 이점 (신규)
+  - `wiki/concepts/quant-meltdown.md` — 2007년 퀀트 멜트다운 (신규)
+  - `wiki/concepts/crowded-trade.md` — 과밀 거래(Crowded Trade) (신규)
+- **Pages updated**:
+  - `wiki/concepts/procyclical-leverage.md` — 퀀트 멜트다운·과밀 거래 연결 추가
+  - `wiki/concepts/macro-market-divergence.md` — 과밀 거래·퀀트 멜트다운 연결 추가
+  - `wiki/index.md` (통계 및 목록 업데이트)
+- **Notes**:
+  - 출처가 단일 정리 보고서(Wall Street Prep + 50 South Capital + Khandani & Lo 종합)로, 직접적인 1차 데이터가 아님 → confidence medium 적용.
+  - 핵심 수치: HFRI 헤지펀드 연평균 5.9% vs 채권 -1.10% (2019.3 이후), 수수료 전통 2/20→최근 1.5/15.
+  - 퀀트 멜트다운은 기존 procyclical-leverage, macro-market-divergence 개념과 연결되는 실증 사례로 양방향 링크 추가.
+  - AI 군집 행동(herding)이 새로운 형태의 과밀 거래를 형성할 수 있다는 경고 — nbfi-systemic-risk 보고서의 AI 리스크 경고와 연계.
+  - 모순 없음. 기존 NBFI·레버리지 관련 페이지들과 일관성 유지.
+
+---
+
+### 2026-04-12 — Ingest: raw/2026-04-12_report_state-capitalism-financial-repression-napier.md
+
+- **Source/Trigger**: 사용자 명령 — NotebookLM 노트북(9d76d85e-2e62-4efa-8121-a241b044df61) 기반 보고서 정리 및 ingest
+- **출처**: 월가아재 YouTube 영상 2편 ("채권은 다 팔아야 합니다" / "미국주식, 앞으로 15년은 지금과 달라질 수 있습니다"), 주요 인물: 러셀 네피어(Russell Napier)
+- **Pages created**:
+  - `raw/2026-04-12_report_state-capitalism-financial-repression-napier.md` — NotebookLM 정리 보고서 원본
+  - `wiki/summaries/state-capitalism-financial-repression-napier.md` — 요약 페이지
+  - `wiki/concepts/financial-repression.md` — 금융 억압 개념 (신규)
+  - `wiki/concepts/state-capitalism.md` — 국가 자본주의 개념 (신규)
+  - `wiki/concepts/capital-nationalism.md` — 자본 민족주의 개념 (신규)
+  - `wiki/entities/russell-napier.md` — 러셀 네피어 엔티티 (신규)
+- **Pages updated**: `wiki/index.md` (통계 및 목록 업데이트)
+- **Notes**:
+  - 기존 `entities/gpif`, `entities/japanese-life-insurers` 페이지와 연결 (일본 자본 회수 시나리오)
+  - `concepts/dollar-cycle`, `concepts/rollover-risk`와 교차 링크 추가
+  - 미국 국가 부채 수치(39조 달러, GDP 122%)는 2026년 3월 기준 — 최신 확인 필요
+  - 자본 민족주의 실현 속도는 불확실 — 구조적 방향성 프레임워크로만 활용 권장
+
+---
+
 ### 2026-04-12 03:00 — Ingest: raw/2026-02-03_report_private-credit-market-overview.pdf
 
 - **Source/Trigger**: 사용자 명령 `/pdf @raw/2026-02-03_report_private-credit-market-overview.pdf`

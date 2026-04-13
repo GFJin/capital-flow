@@ -28,6 +28,15 @@ Master catalog of all wiki pages. Every page in the wiki must have an entry here
 | [[concepts/qdii]] | china, portfolio-flow, equities, bonds, fx, structural, emerging-markets | high | 2026-04-12 |
 | [[concepts/southbound-trading]] | china, portfolio-flow, equities, fx, structural, hot-money | high | 2026-04-12 |
 | [[concepts/em-ex-china]] | emerging-markets, china, portfolio-flow, equities, structural | high | 2026-04-12 |
+| [[concepts/financial-repression]] | interest-rate, inflation, bonds, central-bank, portfolio-flow, structural, well-established | high | 2026-04-12 |
+| [[concepts/state-capitalism]] | central-bank, interest-rate, inflation, bonds, portfolio-flow, fdi, structural, well-established | high | 2026-04-12 |
+| [[concepts/capital-nationalism]] | portfolio-flow, fx, bonds, equities, repatriation, us, japan, europe, structural, well-established | high | 2026-04-12 |
+| [[concepts/nbfi]] | liquidity, portfolio-flow, bonds, equities, interest-rate, central-bank, structural, advanced, well-established | high | 2026-04-12 |
+| [[concepts/macro-market-divergence]] | risk-appetite, liquidity, interest-rate, portfolio-flow, structural, cyclical | high | 2026-04-12 |
+| [[concepts/monetary-policy-transmission]] | interest-rate, central-bank, liquidity, portfolio-flow, bonds, structural | high | 2026-04-12 |
+| [[concepts/hedge-fund]] | portfolio-flow, equities, bonds, fx, commodities, liquidity, risk-appetite, structural | medium | 2026-04-12 |
+| [[concepts/quant-meltdown]] | equities, liquidity, risk-appetite, portfolio-flow, structural, cyclical | medium | 2026-04-12 |
+| [[concepts/crowded-trade]] | equities, portfolio-flow, risk-appetite, liquidity, structural, cyclical | medium | 2026-04-12 |
 
 ## Entities
 
@@ -39,6 +48,9 @@ Master catalog of all wiki pages. Every page in the wiki must have an entry here
 | [[entities/japanese-life-insurers]] | market-participant | portfolio-flow, bonds, fx, japan, asia, dollar-cycle | 2026-04-11 |
 | [[entities/taiwanese-life-insurers]] | market-participant | portfolio-flow, bonds, fx, asia, dollar-cycle | 2026-04-11 |
 | [[entities/china]] | country-economy | china, portfolio-flow, fdi, fx, bonds, equities, emerging-markets | 2026-04-12 |
+| [[entities/russell-napier]] | market-participant (전략가·금융역사가) | interest-rate, inflation, bonds, equities, structural, qualitative, well-established | 2026-04-12 |
+| [[entities/imf]] | 국제금융기구 (신뢰 출처) | bonds, portfolio-flow, fx, interest-rate, emerging-markets, developed-markets | 2026-04-12 |
+| [[entities/ecb]] | central-bank (유로존) | bonds, fx, interest-rate, inflation, central-bank, europe | 2026-04-12 |
 
 ## Summaries
 
@@ -49,6 +61,9 @@ Master catalog of all wiki pages. Every page in the wiki must have an entry here
 | [[summaries/kcif-gpif-portfolio-260326]] | raw/260326-일본+GPIF+포트폴리오+조정+가능성.pdf | GPIF 포트폴리오 조정 가능성, 환헤지 비율, 일본 국내채권 확대 시나리오 및 제약 | 2026-04-12 |
 | [[summaries/kcif-china-capital-outflow-260325]] | raw/260325-중국+내외국인.pdf | 중국 증권투자 순유출 3,577억달러, QDII·남향자금, 홍콩 허브, EM ex-China | 2026-04-12 |
 | [[summaries/kcif-private-credit-market-overview-260203]] | raw/2026-02-03_report_private-credit-market-overview.pdf | 미국 사모대출 시장 규모·섹터·스프레드, 그림자 파산, PIK, 은행·보험사 상호연계 | 2026-04-12 |
+| [[summaries/state-capitalism-financial-repression-napier]] | raw/2026-04-12_report_state-capitalism-financial-repression-napier.md | 러셀 네피어의 국가 자본주의·금융 억압·자본 민족주의 프레임워크, 채권 매도·가치주·금 투자 논리 | 2026-04-12 |
+| [[summaries/nbfi-systemic-risk]] | raw/비은행 금융중개의 취약성과 시스템 리스크 관리 방안.md | NBFI 구조적 성장, 거시-시장 괴리, 3대 취약성, 통화정책 전파 경로 변형, 정책 대응 | 2026-04-12 |
+| [[summaries/hedge-fund-industry-analysis]] | raw/헤지펀드 산업 분석 및 시장 역학 브리핑 보고서.md | 헤지펀드 구조·전략, 고금리 환경 이점, 2007년 퀀트 멜트다운, 과밀 거래 꼬리 리스크 | 2026-04-12 |
 
 ## Syntheses
 
@@ -58,12 +73,12 @@ Master catalog of all wiki pages. Every page in the wiki must have an entry here
 
 ## 통계
 
-- **총 페이지 수**: 28
-- **개념**: 16
-- **엔티티**: 6
-- **요약**: 5
+- **총 페이지 수**: 44
+- **개념**: 25
+- **엔티티**: 9
+- **요약**: 9
 - **분석 종합**: 1
-- **인제스트된 출처**: 5
-- **신뢰도 high**: 26
-- **신뢰도 medium**: 1
+- **인제스트된 출처**: 8
+- **신뢰도 high**: 38
+- **신뢰도 medium**: 5
 - **신뢰도 low**: 0
