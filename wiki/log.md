@@ -20,6 +20,24 @@ Each entry follows this format:
 
 ---
 
+### 2026-04-17 — Ingest: raw/20240417_B_20210092_852.pdf
+
+- **Source/Trigger**: 사용자 명령 `ingest 20240417_B_20210092_852.pdf`
+- **출처**: 교보증권 리서치센터, 2024-04-17, 75페이지 프레젠테이션
+- **Pages created**:
+  - `wiki/summaries/kyobo-yen-carry-unwind-240417.md` — 요약 페이지
+  - `wiki/concepts/yen-carry-trade.md` — 엔 캐리 트레이드 개념 (신규)
+  - `wiki/concepts/carry-trade-unwind.md` — 캐리 트레이드 청산 개념·5차 역사 케이스 (신규)
+  - `wiki/entities/boj.md` — 일본은행(BOJ) 엔티티 (신규)
+- **Pages updated**:
+  - `wiki/index.md` — 신규 페이지 4개 등록, 통계 업데이트
+- **Notes**:
+  - 기존 wiki에 캐리 트레이드 관련 개념 및 BOJ 엔티티 부재. 모두 신규 생성
+  - 교보증권은 Trusted Data Source 목록에 없으나, Bloomberg·CEIC·BOJ·IMF 등 신뢰 데이터 출처를 직접 인용하고 있어 confidence: high 부여
+  - 2024년 4월 시점 전망이므로 이후 실제 청산 전개(2024년 8월 급격한 엔화 강세 등)와 비교 검토 필요
+
+---
+
 ### 2026-04-12 — Ingest: raw/비은행 금융중개의 취약성과 시스템 리스크 관리 방안.md
 
 - **Source/Trigger**: 사용자 명령 `ingest @raw/비은행 금융중개의 취약성과 시스템 리스크 관리 방안.md`
