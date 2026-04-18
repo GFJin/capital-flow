@@ -138,6 +138,24 @@ Nomura(2024-08-16)가 집계한 MOF 주간 데이터는 캐리 청산 직후 일
 - 캐리 트레이드 자체보다 **VaR 규칙과 마진 경기순응성**이 진짜 시스템 취약점
 - 마진을 호황기에 지나치게 낮추지 않아야 — 위기 시 급격한 마진 인상이 강제 매도자를 양산
 
+## 2026년 잠재 청산 리스크 (KCIF, 2026-01-08)
+
+KCIF는 현재(2026년 초) 4요소 모두 캐리 우호적임에도 두 가지 신규 청산 트리거를 경고:
+
+### (1) BOJ 금리인상 기조
+- BOJ의 점진적 정책 정상화(금리인상) 지속 → 엔화 조달 비용 상승 → 엔 캐리 포지션 유인 약화
+- KCIF는 급격한 청산 가능성은 제한적이라는 시각이 시장 다수이나 잠재 리스크로 지속 경계 필요하다고 판단
+
+### (2) AI 레버리지 연쇄 위험 (신규 트리거)
+- AI 붐 과정에서 공격적 레버리지 투자 부각 → 캐리 트레이드와 교차 포지션(Cross-Pod) 연결
+- [[entities/hyun-song-shin]](BIS)의 VaR 연동 교차자산 전염 메커니즘과 동일한 경로: AI 기술주 손실 → VaR 한도 초과 → 캐리 포지션 강제 청산
+- **KCIF는 이를 2026년 새로운 위험 요인**으로 명시 (2024년 8월 사례와 달리 AI 섹터 레버리지가 핵심 매개)
+
+### (3) Goldman Sachs 경고: 위험 프리미엄 축소
+- 캐리트레이드 위험 프리미엄 크게 축소 → 중기적으로 투자자 기대 수익률 감소 시사
+- Bloomberg: '골디락스식 낙관론' 과도 확산 → 경계 필요
+- **결론**: 캐리트레이드는 위험선호 분위기에서 매력적이나, 낙관론 팽배 구간에서 청산 발생 시 타격은 오히려 더 클 수 있음
+
 ## Related Concepts
 
 - [[concepts/yen-carry-trade]] — 캐리 트레이드 구축 메커니즘
@@ -156,3 +174,4 @@ Nomura(2024-08-16)가 집계한 MOF 주간 데이터는 캐리 청산 직후 일
 - `raw/24809_Significant position unwinding, and what is USDJPYs next move_nomura.pdf` — Nomura Securities (Yujiro Goto 외), 2024-08-09: **CFTC 기준 JPY 숏 80% 청산 완료. 여름 유동성 계절성, GPIF 리밸런싱 반대 압력, BOJ 우치다 발언. Citi 대비 온건한 엔화 강세 전망**
 - `raw/240829_엔 캐리 트레이드가 실제로 무엇인지에 대해 말하다_신현송박사_원본.pdf` — BIS 신현송 박사 (Bloomberg Odd Lots), 2024-08-29: **캐리 트레이드 과잉 강조 경계. VaR 연동 교차자산 매도가 주요 전달 경로. 달러-엔 FX 베이시스 거의 변동 없음 → 엔 반제 동인 확인**
 - `raw/240816_How can we estimate the size of yen carry trade positions from existing statistics_Nomura.pdf` — Nomura Securities (Yujiro Goto 외), 2024-08-16: **CFTC Aug 6 ≈ 0 (투기적 청산 완료 확인). BOJ/BIS/CFTC 3종 프록시 정의·한계. MOF 주간 플로우(Aug 4-10). BIS 데이터 시차(Dec-24까지 전체 청산 규모 미파악)**
+- `raw/260108-캐리트레이드+여건+분석.pdf` — KCIF (김용준 전문위원), 2026-01-08: **2026년 4요소 캐리 우호 판정. 신규 청산 트리거 2가지(BOJ 금리인상 + AI 레버리지 연쇄). Goldman Sachs 위험 프리미엄 축소 경고**

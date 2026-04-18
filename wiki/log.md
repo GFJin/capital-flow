@@ -20,6 +20,26 @@ Each entry follows this format:
 
 ---
 
+### 2026-04-18 — Ingest: raw/260108-캐리트레이드+여건+분석.pdf
+
+- **Source/Trigger**: 사용자 명령 `ingest 260108-캐리트레이드+여건+분석.pdf`
+- **출처**: KCIF (김용준 전문위원), 2026-01-08, Issue Analysis — 글로벌 캐리트레이드 여건 분석 및 전망
+- **Pages created**:
+  - `wiki/summaries/kcif-carry-trade-conditions-260108.md` — 요약 페이지 (신규)
+- **Pages updated**:
+  - `wiki/concepts/carry-vol-ratio.md` — 4요소 여건 분석 프레임워크 섹션 신규 추가(금리차·환율·변동성·위험선호 2026년 초 평가 테이블, 통화별 단기금리 순위); 출처 추가
+  - `wiki/concepts/yen-carry-trade.md` — "달러 캐리트레이드 부상" 섹션 신규 추가(DXY 9.4% 약세, Wells Fargo, 원자재 보유국 통화 선호, 통화별 금리순위); 출처 추가
+  - `wiki/concepts/carry-trade-unwind.md` — "2026년 잠재 청산 리스크" 섹션 신규 추가(BOJ 금리인상 + AI 레버리지 연쇄 위험 + Goldman Sachs 경고); 출처 추가
+  - `wiki/entities/kcif.md` — 새 발간물(2026.1.8 캐리트레이드 여건 분석) 등록; 출처·updated 날짜 추가
+  - `wiki/index.md` — 요약 1개 등록, 통계 업데이트 (총 59페이지, 요약 17개, 출처 16개)
+- **Notes**:
+  - KCIF 4요소 프레임워크(금리차·환율·변동성·위험선호)는 carry-vol-ratio 단일 지표를 보완하는 종합 진단 도구로서 wiki에 처음 문서화됨
+  - "달러 캐리트레이드 부상"은 엔 캐리 중심이던 기존 wiki 프레임에 중요한 확장. 조달 통화로 달러 부각 구조를 명시
+  - AI 레버리지 연쇄 위험은 신현송(BIS)의 VaR 교차자산 전염 메커니즘(hyun-song-shin.md)과 동일한 경로 — 두 분석이 상호 보완됨. 교차 참조 연결
+  - 원자재 보유국 통화(COP·ZAR·MXN·AUD) 선호는 2024년 8월 Citi가 "클래식 캐리 목적지 통화"로 실증한 통화군과 상당 부분 겹침 → 일관된 패턴 확인
+
+---
+
 ### 2026-04-18 — Ingest: raw/240816_How can we estimate the size of yen carry trade positions from existing statistics_Nomura.pdf
 
 - **Source/Trigger**: 사용자 명령 `ingest 240816_How can we estimate the size of yen carry trade positions from existing statistics_Nomura.pdf`

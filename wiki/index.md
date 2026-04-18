@@ -78,6 +78,7 @@ Master catalog of all wiki pages. Every page in the wiki must have an entry here
 | [[summaries/hyunsongshin-oddlots-240829]] | raw/240829_엔 캐리 트레이드가 실제로 무엇인지에 대해 말하다_신현송박사_원본.pdf | BIS FX 스왑 규모($14조), 오프밸런스시트 캐리 메커니즘, VaR 교차자산 전염, 달러-엔 베이시스 진단, 글로벌 금융여건 재해석 | 2026-04-18 |
 | [[summaries/nomura-jpy-flow-special-240809]] | raw/240809_Sharp fall in USDJPY and investors reactions_Nomura.pdf | 일본 5대 투자자 유형별 플로우: 생보사 가정환율·헤지 트리거, GPIF ¥4.7조 리밸런싱, NISA 환매, 수출기업 목표환율, Mrs. Watanabe 역발상 | 2026-04-18 |
 | [[summaries/nomura-yen-carry-size-240816]] | raw/240816_How can we estimate the size of yen carry trade positions from existing statistics_Nomura.pdf | BOJ $68bn/BIS $271bn/CFTC~$0 3종 프록시, 온↔오프밸런스 구조 전환, MOF 주간(Aug 4-10), 우리다시 채권, 신현송 X 포스트(BIS=최대치) | 2026-04-18 |
+| [[summaries/kcif-carry-trade-conditions-260108]] | raw/260108-캐리트레이드+여건+분석.pdf | 글로벌 캐리트레이드 4요소 여건 분석(2026년 초 모두 우호), 달러 캐리트레이드 부상, 원자재 보유국 통화 선호, BOJ+AI 레버리지 청산 트리거 경고 | 2026-04-18 |
 
 ## Syntheses
 
@@ -87,12 +88,12 @@ Master catalog of all wiki pages. Every page in the wiki must have an entry here
 
 ## 통계
 
-- **총 페이지 수**: 58
+- **총 페이지 수**: 59
 - **개념**: 30
 - **엔티티**: 11
-- **요약**: 16
+- **요약**: 17
 - **분석 종합**: 1
-- **인제스트된 출처**: 15
-- **신뢰도 high**: 52
+- **인제스트된 출처**: 16
+- **신뢰도 high**: 53
 - **신뢰도 medium**: 5
 - **신뢰도 low**: 0

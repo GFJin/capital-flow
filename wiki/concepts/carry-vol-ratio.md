@@ -4,7 +4,7 @@ type: concept
 tags: [carry-trade, fx, japan, interest-rate, risk-appetite, quantitative, cyclical, well-established]
 created: 2026-04-18
 updated: 2026-04-18
-sources: ["raw/Japan_FX_Capitulation_of_JPY_carry_Only_the_beginning_of_the_end-Japan_FX.pdf"]
+sources: ["raw/Japan_FX_Capitulation_of_JPY_carry_Only_the_beginning_of_the_end-Japan_FX.pdf", "raw/260108-캐리트레이드+여건+분석.pdf"]
 confidence: high
 ---
 
@@ -50,6 +50,22 @@ confidence: high
 - **단일 지표의 한계**: 비율만으로 청산 여부를 판단하기 어려움. 금리차 절대 수준, 포지션 규모(CitiFX Position Index 등), 글로벌 위험 지표와 병행 모니터링 필요
 - **변동성 측정 방식**: 내재 변동성(옵션 기반)과 실현 변동성 중 어느 것을 사용하느냐에 따라 비율이 달라짐
 
+## 4요소 여건 분석 프레임워크 (KCIF, 2026-01-08)
+
+캐리/변동성 비율이 단일 기술 지표인 반면, KCIF는 캐리트레이드 환경을 평가하는 **4요소 종합 프레임워크**를 제시한다. 실무 분석에서 캐리 매력도를 더 폭넓게 진단하는 데 활용:
+
+| 요소 | 지표 | 우호 조건 | 2026년 초 평가 |
+|------|------|---------|-------------|
+| **금리차** | 주요국 단기 금리차, 10년 국채 수익률 | 조달국 저금리, 운용국 고금리 | 우호 — 주요국 금리 고수준, 연준 완화 기조 |
+| **환율** | DXY 방향성, 신흥통화 절상률 | 조달통화 약세, 운용통화 강세 | 우호 — 달러 9.4% 약세(2025), 추가 약세 전망 |
+| **변동성** | VIX, CVIX, MOVE | 낮은 변동성 | 우호 — 전반적 낮은 변동성 국면 지속 |
+| **위험선호** | 위험선호 지수, CDS 포지션, 주가 | Risk-on | 우호 — CDS 매도 3.5년래 최고, S&P 최고치 |
+
+**2026년 초 종합 판정 (KCIF)**: 4요소 모두 캐리트레이드에 유리한 상황. 단, 낙관론 과잉에 따른 위험 프리미엄 축소(Goldman Sachs 경고) → 중기 기대 수익률 감소 가능.
+
+**단기 예금금리 기준 통화별 캐리 매력도** (2026년 초 3개월 예금금리, 고→저):
+TRY → RUB → MXN → ZAR → HUF → IDR → … → USD → … → SGD → JPY
+
 ## Related Concepts
 
 - [[concepts/yen-carry-trade]] — 캐리/변동성 비율이 높을 때 포지션 구축이 활발해지는 전략
@@ -60,3 +76,4 @@ confidence: high
 ## Sources
 
 - `raw/Japan_FX_Capitulation_of_JPY_carry_Only_the_beginning_of_the_end-Japan_FX.pdf` — Citi Research (Osamu Takashima 외), 2024-08-05
+- `raw/260108-캐리트레이드+여건+분석.pdf` — KCIF (김용준 전문위원), 2026-01-08: **4요소 여건 분석 프레임워크, 각 요소 2026년 초 평가, 통화별 단기 금리 순위 데이터**

@@ -5,7 +5,8 @@ tags: [central-bank, qualitative, quantitative, korea, developed-markets, founda
 created: 2026-04-12
 updated: 2026-04-12
 
-sources: ["raw/260326-일본+GPIF+포트폴리오+조정+가능성.pdf", "raw/260325-중국+내외국인.pdf"]
+sources: ["raw/260326-일본+GPIF+포트폴리오+조정+가능성.pdf", "raw/260325-중국+내외국인.pdf", "raw/260108-캐리트레이드+여건+분석.pdf"]
+updated: 2026-04-18
 confidence: high
 ---
 
@@ -34,6 +35,7 @@ KCIF는 직접적인 통화·금융정책 권한은 없으나, 한국 정부의 
 ## 자본 흐름 관련 주요 발간물
 
 - **KCIF (2025.3.26)**: "일본 GPIF 포트폴리오 조정 가능성 관련 쟁점 점검" — 일본 공적연금의 국내투자 확대 가능성, 제약 요인, 글로벌 자본흐름 영향 분석. [[summaries/kcif-gpif-portfolio-260326]] 참조.
+- **KCIF (2026.1.8)**: "글로벌 캐리트레이드 여건 분석 및 전망" — 금리차·환율·변동성·위험선호 4요소 프레임워크, 2026년 4요소 모두 우호적 판정, 달러 캐리트레이드 부상, 원자재 보유국 통화 선호, BOJ 금리인상+AI 레버리지 신규 청산 트리거 경고. [[summaries/kcif-carry-trade-conditions-260108]] 참조.
 - **KCIF (2026.3.25)**: "중국의 내외국인 증권투자 순유출 확대 및 평가" — 2025년 연간 순유출 3,577억달러(역대 최대), 내국인 해외투자 구조(QDII·Southbound), 홍콩 허브 심화, EM ex-China 전략 확대 분석. [[summaries/kcif-china-capital-outflow-260325]] 참조.
 
 ## 관련 엔티티
