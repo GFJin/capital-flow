@@ -4,7 +4,7 @@ type: concept
 tags: [carry-trade, fx, japan, interest-rate, risk-appetite, portfolio-flow, deleveraging, cyclical, well-established]
 created: 2026-04-17
 updated: 2026-04-18
-sources: ["raw/20240417_B_20210092_852.pdf", "raw/Japan_FX_Capitulation_of_JPY_carry_Only_the_beginning_of_the_end-Japan_FX.pdf", "raw/2024-08-09-Societe Generale-The Systematic Investor Report - Recent market turmoil _ Wha...-109778177.pdf", "raw/24809_Significant position unwinding, and what is USDJPYs next move_nomura.pdf", "raw/240829_엔 캐리 트레이드가 실제로 무엇인지에 대해 말하다_신현송박사_원본.pdf", "raw/240816_How can we estimate the size of yen carry trade positions from existing statistics_Nomura.pdf", "raw/BOFA_YENCARRY.pdf"]
+sources: ["raw/20240417_B_20210092_852.pdf", "raw/Japan_FX_Capitulation_of_JPY_carry_Only_the_beginning_of_the_end-Japan_FX.pdf", "raw/2024-08-09-Societe Generale-The Systematic Investor Report - Recent market turmoil _ Wha...-109778177.pdf", "raw/24809_Significant position unwinding, and what is USDJPYs next move_nomura.pdf", "raw/240829_엔 캐리 트레이드가 실제로 무엇인지에 대해 말하다_신현송박사_원본.pdf", "raw/240816_How can we estimate the size of yen carry trade positions from existing statistics_Nomura.pdf", "raw/BOFA_YENCARRY.pdf", "raw/FX in Focus_ The Yen Carry Trade—A Roadblock to BoJ Hikes, Not Fed Cuts (Fishman_Kanter).pdf"]
 confidence: high
 ---
 
@@ -138,6 +138,31 @@ Nomura(2024-08-16)가 집계한 MOF 주간 데이터는 캐리 청산 직후 일
 - 캐리 트레이드 자체보다 **VaR 규칙과 마진 경기순응성**이 진짜 시스템 취약점
 - 마진을 호황기에 지나치게 낮추지 않아야 — 위기 시 급격한 마진 인상이 강제 매도자를 양산
 
+## 엔 캐리 청산의 정책 함의 분리 (Goldman Sachs, 2024-08-11)
+
+GS(Karen Reichgott Fishman 외)의 핵심 정책 프레임워크: **엔 캐리 청산은 BOJ 인상의 장애물이지, Fed 금리인하의 장애물이 아님**
+
+### BOJ에 대한 함의 — 인상 복잡화
+```
+엔화 강세 → 일본 금융 여건(FCI) 타이트닝
+           → 수입 물가 하락 → 기대 인플레 약화
+           → BOJ 인플레 목표 달성 지연
+           → 추가 금리 인상 복잡화
+```
+- 우치다 부총재(2024-08-07) 발언: BOJ가 시장 변동성에 대응해 정책 조정할 의사 → 급격한 엔화 강세로 인플레 목표를 위협하지 않도록 함
+- GS: 미국 경기침체 외에는 급격한 엔화 강세 발생 가능성 낮음
+
+### Fed에 대한 함의 — 금리인하와 무관
+- "캐리 트레이드 청산에 대한 두려움은 Fed가 금리 인하를 주저할 이유가 되지 않는다"
+- 미국 경기침체·금융 불안 시 Fed의 신속한 금리인하 → 오히려 금융 안정에 지원적
+- 타이트한 Fed 정책 유지가 전 세계 시장에 더 위험한 결과를 낳을 수 있음
+- 시장 불안 해소를 위한 정책 조정은 BOJ 역할이 더 자연스러움
+
+### GS 미국 경기침체 시나리오: USD/JPY 5~10%+ 하락
+- **1단계**: 미국 명목금리 3.5~3.75%(하방) → FX 모델 기준 USD/JPY **5% 하락**
+- **2단계**: 약한 주식 + 잔여 캐리 청산 추가 고려 → **최소 2배(10%+)** 하락
+- GS 미국 경기침체 확률: **25%** (2024-08-11 기준)
+
 ## 2026년 잠재 청산 리스크 (KCIF, 2026-01-08)
 
 KCIF는 현재(2026년 초) 4요소 모두 캐리 우호적임에도 두 가지 신규 청산 트리거를 경고:
@@ -175,4 +200,5 @@ KCIF는 현재(2026년 초) 4요소 모두 캐리 우호적임에도 두 가지 
 - `raw/240829_엔 캐리 트레이드가 실제로 무엇인지에 대해 말하다_신현송박사_원본.pdf` — BIS 신현송 박사 (Bloomberg Odd Lots), 2024-08-29: **캐리 트레이드 과잉 강조 경계. VaR 연동 교차자산 매도가 주요 전달 경로. 달러-엔 FX 베이시스 거의 변동 없음 → 엔 반제 동인 확인**
 - `raw/240816_How can we estimate the size of yen carry trade positions from existing statistics_Nomura.pdf` — Nomura Securities (Yujiro Goto 외), 2024-08-16: **CFTC Aug 6 ≈ 0 (투기적 청산 완료 확인). BOJ/BIS/CFTC 3종 프록시 정의·한계. MOF 주간 플로우(Aug 4-10). BIS 데이터 시차(Dec-24까지 전체 청산 규모 미파악)**
 - `raw/BOFA_YENCARRY.pdf` — BofA Global Research (Shusuke Yamada 외), 2024-08-07: **CFTC Jul 30 기준 60% 축소. 구조적 자본 유출(FDI·NISA)은 청산 대상 아님. 사이클 헤저(생보사·수출기업 Tankan ¥142.8)가 USD/JPY 반등 억제. BofA 전망: End-2024=155, End-2025=147**
+- `raw/FX in Focus_ The Yen Carry Trade—A Roadblock to BoJ Hikes, Not Fed Cuts (Fishman_Kanter).pdf` — Goldman Sachs (Karen Reichgott Fishman 외), 2024-08-11: **BOJ 인상 장애물 vs. Fed 금리인하 무관 정책 분리. 경기침체 시 USD/JPY 5%(+주식·캐리 고려 시 10%+) 추가 하락. GS 경기침체 확률 25%. ¥300tn 무헤지 해외주식 취약 추정. coincidental timing 테제**
 - `raw/260108-캐리트레이드+여건+분석.pdf` — KCIF (김용준 전문위원), 2026-01-08: **2026년 4요소 캐리 우호 판정. 신규 청산 트리거 2가지(BOJ 금리인상 + AI 레버리지 연쇄). Goldman Sachs 위험 프리미엄 축소 경고**

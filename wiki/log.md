@@ -20,6 +20,26 @@ Each entry follows this format:
 
 ---
 
+### 2026-04-18 — Ingest: raw/FX in Focus_ The Yen Carry Trade—A Roadblock to BoJ Hikes, Not Fed Cuts (Fishman_Kanter).pdf
+
+- **Source/Trigger**: 사용자 명령 `FX in Focus_The Yen Carry ~.pdf ingest`
+- **출처**: Goldman Sachs Global Investment Research (Karen Reichgott Fishman; Lexi Kanter), 2024-08-11, FX in Focus
+- **Pages created**:
+  - `wiki/summaries/gs-yen-carry-boj-roadblock-240811.md` — 요약 페이지 (신규)
+- **Pages updated**:
+  - `wiki/concepts/yen-carry-trade.md` — CFTC 피크 $15bn(¥2.4tn) 추가, 3종 프록시 표에 GS Flow of Funds 행(¥300tn/$2tn) 추가, GS 관찰 섹션 신규(coincidental timing, 90% 청산, ¥300tn 취약), Citi·Nomura·BofA·GS 4각 비교 확장, sources 추가
+  - `wiki/concepts/carry-trade-unwind.md` — "엔 캐리 청산의 정책 함의 분리(BOJ vs. Fed)" 섹션 신규, GS 경기침체 시나리오(5~10%+ 하락) 추가, sources 추가
+  - `wiki/entities/boj.md` — "엔 캐리 청산 → BOJ 인상 복잡화 메커니즘" 섹션 신규, sources 추가
+  - `wiki/index.md` — 요약 1개 등록, 통계 업데이트 (총 61페이지, 요약 19개, 출처 18개)
+- **Notes**:
+  - GS 핵심 기여: "엔 캐리 청산 = BOJ 인상 장애물 / Fed 금리인하 무관" 이분법. 이 정책 분리 프레임이 가장 실용적인 정책 분석 틀이며 기존 wiki에 없던 것
+  - CFTC 피크 $15bn(¥2.4tn)이 처음 명시됨. 이로써 CFTC 데이터 타임라인 완성: 피크 $15bn → Jul 30 $6bn(60% 청산, BofA 추정) → Aug 6 $1bn(90% 청산, GS/Nomura)
+  - ¥300tn 무헤지 해외주식 추정: GS만의 독자적 리얼머니 리스크 추정. "stickier" 포지션이 왜 중요한지를 수치로 보여주는 가장 포괄적 데이터
+  - coincidental timing 테제는 신현송(VaR 전염)·BofA(구조적 유출 구분)·GS(독립적 포지션 취약성) 세 기관이 모두 "캐리 딥 레버리지가 주원인이 아님"이라는 결론에 다른 경로로 도달함을 보여줌 → wiki에 수렴 패턴으로 기록할 가치 있음
+  - 4각 비교(Citi·Nomura·BofA·GS)가 완성됨: 2024년 8월 사례를 4개 IB가 각각 다른 측정 기준·프레임으로 본 완전한 picture
+
+---
+
 ### 2026-04-18 — Ingest: raw/BOFA_YENCARRY.pdf
 
 - **Source/Trigger**: 사용자 명령 `BOFA_YENCARRY ingest`

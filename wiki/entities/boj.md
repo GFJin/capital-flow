@@ -5,7 +5,8 @@ subtype: central-bank
 tags: [central-bank, japan, interest-rate, fx, carry-trade, dollar-cycle, developed-markets, quantitative, qualitative]
 created: 2026-04-17
 updated: 2026-04-18
-sources: ["raw/20240417_B_20210092_852.pdf", "raw/Japan_FX_Capitulation_of_JPY_carry_Only_the_beginning_of_the_end-Japan_FX.pdf", "raw/24809_Significant position unwinding, and what is USDJPYs next move_nomura.pdf"]
+sources: ["raw/20240417_B_20210092_852.pdf", "raw/Japan_FX_Capitulation_of_JPY_carry_Only_the_beginning_of_the_end-Japan_FX.pdf", "raw/24809_Significant position unwinding, and what is USDJPYs next move_nomura.pdf", "raw/FX in Focus_ The Yen Carry Trade—A Roadblock to BoJ Hikes, Not Fed Cuts (Fishman_Kanter).pdf"]
+updated: 2026-04-18
 confidence: high
 ---
 
@@ -46,10 +47,25 @@ confidence: high
 | 2024.08.01 | 금리 0.1% → 0.25% 추가 인상, 매파적 스탠스 | USDJPY ¥20 급락 유발. 수년간 누적된 엔캐리 청산 가속 (Citi: "끝의 시작"). Nomura: JPY 숏 80% 청산 |
 | 2024.08.07 | 우치다 신이치 부총재 발언: "시장 불안정 시 금리 인상 안 함" | 일시적 도비시 시그널 → 단기 시장 안정. Nomura는 인상 사이클 종료가 아닌 "when"의 문제로 해석 |
 
+## 엔 캐리 청산 → BOJ 인상 복잡화 메커니즘 (Goldman Sachs, 2024-08-11)
+
+Goldman Sachs(Fishman 외)는 엔 캐리 청산이 **Fed가 아닌 BOJ에 장애물**이 되는 메커니즘을 명시:
+
+```
+엔 캐리 청산 → 엔화 급등 → 일본 금융 여건(FCI) 타이트닝
+              → 수입 물가 하락 → 기대 인플레 약화
+              → BOJ 인플레 목표(2% 지속) 달성 지연
+              → 추가 금리 인상 어려워짐
+```
+
+- BOJ가 급격한 엔화 강세를 인플레 목표 달성의 위협으로 인식하는 구조적 이유
+- **우치다 부총재 대응(2024-08-07)**: 시장 변동성 시 현 금리 유지 의사 → 엔화 강세 가속화 방지 목적
+- GS 평가: 미국 경기침체 외에는 급격한 엔화 강세 발생 가능성 낮으므로 BOJ의 이러한 정책 조정이 필요한 상황 자체가 드묾
+
 ## Related Entities
 
 - [[entities/japanese-life-insurers]] — BOJ 정책의 주요 영향을 받는 국내 기관투자자
 - [[entities/gpif]] — 통화정책 전환 시 포트폴리오 재조정 행위자
 - [[entities/ecb]] — 유로-엔 캐리 트레이드의 타겟 통화 발행 중앙은행
 - [[concepts/yen-carry-trade]] — BOJ 정책의 글로벌 파급 경로
-- [[concepts/carry-trade-unwind]] — 금리 인상이 청산 촉매로 작용하는 메커니즘
+- [[concepts/carry-trade-unwind]] — 금리 인상이 청산 촉매로 작용하는 메커니즘, GS 정책 분리 프레임워크
