@@ -20,6 +20,26 @@ Each entry follows this format:
 
 ---
 
+### 2026-04-18 — Ingest: raw/240816_How can we estimate the size of yen carry trade positions from existing statistics_Nomura.pdf
+
+- **Source/Trigger**: 사용자 명령 `ingest 240816_How can we estimate the size of yen carry trade positions from existing statistics_Nomura.pdf`
+- **출처**: Nomura Securities (Yujiro Goto, Jin Moteki, Yusuke Miyairi, Tomoki Hideshima), 2024-08-16, JPY Weekly Flow Monitor
+- **Pages created**:
+  - `wiki/summaries/nomura-yen-carry-size-240816.md` — 요약 페이지 (신규)
+- **Pages updated**:
+  - `wiki/concepts/yen-carry-trade.md` — BOJ/BIS/CFTC 3종 프록시 비교 표 신규 섹션 추가, Key Parameters에 CFTC/BOJ/BIS 구체 수치 정밀화, 온→오프밸런스 전환 이유(레버리지 규제), 우리다시 채권 섹션 추가; 출처 추가
+  - `wiki/concepts/carry-trade-unwind.md` — 3종 프록시 표 및 데이터 시차 경고로 기존 "청산 규모 추정 대체변수" 섹션 교체, MOF 주간 플로우(Aug 4-10) 신규 섹션 추가; 출처 추가
+  - `wiki/entities/hyun-song-shin.md` — Shin X 플랫폼 게시글(BIS $271bn = 최대 추정치) 내용 Sources 섹션에 추가; 출처 추가
+  - `wiki/index.md` — 요약 1개 등록, 통계 업데이트 (총 58페이지, 요약 16개, 출처 15개)
+- **Notes**:
+  - 이 보고서의 가장 중요한 기여: BOJ($68bn)·BIS($271bn)·CFTC(~$0) 3종 프록시를 하나의 체계로 정리. 실무 분석에서 어떤 지표를 어떤 목적으로 쓸지 명확한 분류 제공
+  - CFTC Aug 6 ≈ 제로 → Nomura Aug 9 "80% 청산" 주장을 1주 전 데이터로 선행 확인. 두 보고서가 동일 결론에 독립적으로 도달
+  - 신현송의 X 플랫폼 게시글이 Nomura 보고서에 직접 인용됨 → BIS $271bn을 "최대 추정치"로 해석하는 것이 신현송 본인의 공식 입장임을 확인. hyun-song-shin.md Sources에 추가
+  - GFC 이후 레버리지 비율 규제가 온밸런스 캐리 비중을 구조적으로 감소시켰다는 설명은 기존 wiki에 없던 규제 맥락을 추가
+  - 우리다시 채권(Mrs. Watanabe 캐리 채널)이 처음 명시적으로 문서화됨. MXN/JPY TFX 포지션 급감(¥121.5bn→¥45.4bn) 데이터와 함께 개인 캐리 청산 경로 실증
+
+---
+
 ### 2026-04-18 — Ingest: raw/240809_Sharp fall in USDJPY and investors reactions_Nomura.pdf
 
 - **Source/Trigger**: 사용자 명령 `ingest 240809_Sharp fall in USDJPY and investors reactions_Nomura.pdf`
