@@ -20,6 +20,29 @@ Each entry follows this format:
 
 ---
 
+### 2026-04-18 — Ingest: raw/240829_엔 캐리 트레이드가 실제로 무엇인지에 대해 말하다_신현송박사_원본.pdf
+
+- **Source/Trigger**: 사용자 명령 `ingest 240829_엔 캐리 트레이드가 실제로 무엇인지에 대해 말하다_신현송박사_원본.pdf`
+- **출처**: BIS 수석이코노미스트 신현송 박사, Bloomberg Odd Lots 팟캐스트 전사, 2024-08-29 (녹화: 2024-08-23 Jackson Hole)
+- **신뢰도**: BIS 신뢰 출처 지정 → confidence: high 적용
+- **Pages created**:
+  - `wiki/summaries/hyunsongshin-oddlots-240829.md` — 요약 페이지 (신규)
+  - `wiki/entities/hyun-song-shin.md` — BIS 수석이코노미스트 엔티티 (신규)
+- **Pages updated**:
+  - `wiki/concepts/yen-carry-trade.md` — FX 스왑 오프밸런스시트 캐리 메커니즘 섹션 추가, BIS 규모 추정(40조엔/$14조), 클래식 목적지 통화(MXN·COP·ZAR) 추가, 출처 추가
+  - `wiki/concepts/carry-trade-unwind.md` — 신현송 VaR 교차자산 매도 메커니즘 섹션 추가, 달러-엔 베이시스 진단 추가, 출처 추가
+  - `wiki/concepts/cross-currency-basis.md` — 캐리 방향 탐지 도구 섹션 추가 (달러 쟁탈 vs 엔 반제 구분표), 관련 개념 추가, 출처 추가
+  - `wiki/concepts/procyclical-leverage.md` — VaR 연동 교차자산 강제 매도 섹션 추가, 마진 경기순응성 정책 처방, 출처 추가
+  - `wiki/entities/bis.md` — 신현송 인용 BIS 데이터 추가(엔화 차입 40조, FX 스왑 $14조), 신현송 링크 추가, 출처 추가
+  - `wiki/index.md` — 신규 페이지 2개 등록, 통계 업데이트 (총 56페이지, 엔티티 11개, 요약 14개)
+- **Notes**:
+  - 신현송 박사의 가장 중요한 주장: 2024년 8월 충격에서 엔 캐리 트레이드가 **핵심 원인으로 과장**됐다는 것. 실제 전달 경로는 법인 내 VaR 한도 연동 교차자산 매도 (포드 간 스필오버)
+  - 달러-엔 FX 베이시스 거의 변동 없음이라는 BIS 데이터가 "달러 쟁탈이 아닌 엔화 반제" 결론을 뒷받침 — `cross-currency-basis.md`에 구분 표로 정리
+  - FX 스왑 시장 $14조 (온밸런스시트 $270bn의 52배)라는 수치는 기존 wiki에 없던 중요한 데이터 포인트 — `yen-carry-trade.md` Key Parameters에 추가
+  - 글로벌 금융여건 재해석(FX 스왑 대체가능성) 개념은 `monetary-policy-transmission.md` 향후 업데이트 권장
+
+---
+
 ### 2026-04-18 — Ingest: raw/24809_Significant position unwinding, and what is USDJPYs next move_nomura.pdf
 
 - **Source/Trigger**: 사용자 명령 `ingest 24809_Significant position unwinding, and what is USDJPYs next move_nomura.pdf`

@@ -3,8 +3,8 @@ title: "경기순응적 레버리지 (Procyclical Leverage)"
 type: concept
 tags: [liquidity, portfolio-flow, interest-rate, risk-appetite, us, developed-markets, structural, cyclical, advanced, well-established]
 created: 2026-04-11
-updated: 2026-04-12
-sources: ["raw/bisbull106.pdf", "raw/비은행 금융중개의 취약성과 시스템 리스크 관리 방안.md"]
+updated: 2026-04-18
+sources: ["raw/bisbull106.pdf", "raw/비은행 금융중개의 취약성과 시스템 리스크 관리 방안.md", "raw/240829_엔 캐리 트레이드가 실제로 무엇인지에 대해 말하다_신현송박사_원본.pdf"]
 confidence: high
 ---
 
@@ -65,8 +65,18 @@ confidence: high
 - [[concepts/quant-meltdown]] — 2007년 퀀트 멜트다운: 경기순응적 레버리지 해소가 피드백 루프로 이어진 실증 사례
 - [[concepts/crowded-trade]] — 과밀 거래: 경기순응적 레버리지가 집중된 상태에서 청산 시 충격 배가
 
+## VaR 연동 교차자산 강제 매도 (신현송, BIS 2024)
+
+[[entities/hyun-song-shin]]은 VaR 규칙과 마진 경기순응성이 2024년 8월 글로벌 자산 동반 매도의 핵심 메커니즘이라고 분석:
+
+- **VaR 한도 연동**: 법인 전체 포트폴리오가 VaR 한도를 초과하면, 손실이 발생한 포지션과 무관한 자산도 모두 청산 → "위기 시 팔 수 있는 것을 판다"
+- **마진 경기순응성**: CCP·증거금 설정 기관들이 스트레스 시 마진을 급격히 인상 → 강제 매도자(forced sellers) 대거 발생 → 시스템 전체 압력 증폭
+- **정책 처방**: 호황기에 마진을 지나치게 낮추지 않아야 위기 시 급격한 조정을 방지할 수 있음 (March 2020 Treasury 시장 교훈)
+- 비은행 기관의 경우 규제 외 영역이 많아 은행처럼 직접 개입이 어렵지만, 규제 금융권과의 접점(contact points)을 활용 가능
+
 ## 출처
 
 - [[summaries/bisbull106]] — BIS Bulletin No. 106 (2025년 7월): BDC 레버리지 추이, 경기순응성 실증, 2025년 4월 에피소드
 - [[summaries/nbfi-systemic-risk]] — IMF GFSR·ECB 분석 (2024~2025): 헤지펀드 OTC 파생상품을 통한 "숨겨진 레버리지(hidden leverage)"가 대차대조표에 포착되지 않는 시스템 리스크 강조
 - [[summaries/hedge-fund-industry-analysis]] — Khandani & Lo 퀀트 멜트다운 연구: 과밀 거래 청산이 경기순응적 레버리지 해소와 결합해 피드백 루프를 형성하는 2007년 실증 사례
+- [[summaries/hyunsongshin-oddlots-240829]] — BIS 신현송 박사 (2024-08-29): VaR 연동 교차자산 강제 매도 메커니즘, 마진 경기순응성 완화 정책 처방

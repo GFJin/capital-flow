@@ -3,8 +3,8 @@ title: "통화 스왑 베이시스 (Cross-Currency Basis)"
 type: concept
 tags: [fx, interest-rate, liquidity, dollar-cycle, quantitative, advanced, well-established]
 created: 2026-04-11
-updated: 2026-04-11
-sources: ["raw/bisbull105.md"]
+updated: 2026-04-18
+sources: ["raw/bisbull105.md", "raw/240829_엔 캐리 트레이드가 실제로 무엇인지에 대해 말하다_신현송박사_원본.pdf"]
 confidence: high
 ---
 
@@ -59,7 +59,24 @@ $$i_{USD} - i_{EUR} = \frac{F-E}{E}$$
 - [[concepts/ex-post-hedging]] — 집중적인 사후 헤징이 베이시스 확대의 원인 중 하나
 - [[concepts/hedge-ratio]] — 헤지 비율이 급격히 높아질 때 베이시스가 확대됨
 - [[concepts/rollover-risk]] — 롤오버 시점의 베이시스가 헤지 갱신 비용을 결정
+- [[concepts/carry-trade-unwind]] — 엔캐리 청산 시 베이시스 반응으로 달러 쟁탈 여부 판별
+- [[concepts/yen-carry-trade]] — FX 스왑을 통한 오프밸런스시트 캐리 포지션 구축
+
+## 캐리 트레이드 방향 탐지 도구로서의 베이시스 (신현송, BIS)
+
+[[entities/hyun-song-shin]](BIS, 2024-08-29)은 FX 스왑 베이시스를 **캐리 트레이드의 방향과 성격을 구분하는 핵심 탐지 도구**로 제시:
+
+- **정상적 달러 수요 스트레스 (예: March 2020)**: 달러 조달 수요 급증 → 달러-엔 베이시스 급격히 마이너스로 확대 → 중앙은행 스왑라인 가동 필요
+- **엔화 반제 주도 청산 (2024년 8월)**: 달러-엔 베이시스 **거의 변동 없음** → 달러 쟁탈이 아닌 엔화 상환(yen repayment)이 동인 → 다른 성격의 이벤트
+- 따라서 2024년 8월 충격은 글로벌 달러 유동성 위기가 아닌, 엔화 관련 포지션 정리가 주된 원인
+
+| 상황 | 달러-엔 베이시스 | 해석 |
+|------|--------------|------|
+| 달러 쟁탈 (GFC, 2020.03) | 마이너스 급확대 | 글로벌 달러 자금 경색 |
+| 엔화 반제 (2024.08) | 거의 변동 없음 | 엔캐리 포지션 청산 주도, 달러 시스템 안정 |
+| 사후 헤징 수요 (2025.04) | 마이너스 확대 | 비미국 투자자 달러 헤지 수요 급증 |
 
 ## 출처
 
 - [[summaries/bisbull105]] — BIS Bulletin No. 105 (2025년 6월): 2025년 4~5월 베이시스 움직임을 헤징 플로우의 증거로 활용
+- [[summaries/hyunsongshin-oddlots-240829]] — BIS 신현송 박사 (2024-08-29): 2024년 8월 달러-엔 베이시스 거의 변동 없음 → 엔 반제 동인 확인, 베이시스를 캐리 성격 탐지 도구로 활용

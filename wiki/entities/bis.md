@@ -3,8 +3,8 @@ title: "BIS — 국제결제은행 (Bank for International Settlements)"
 type: entity
 tags: [central-bank, liquidity, fx, bonds, dollar-cycle, developed-markets, quantitative, qualitative, foundational, well-established]
 created: 2026-04-11
-updated: 2026-04-11
-sources: ["raw/bisbull105.md"]
+updated: 2026-04-18
+sources: ["raw/bisbull105.md", "raw/240829_엔 캐리 트레이드가 실제로 무엇인지에 대해 말하다_신현송박사_원본.pdf"]
 confidence: high
 ---
 
@@ -20,7 +20,7 @@ confidence: high
 
 ## 정책 입장
 
-BIS 자체는 통화정책을 설정하지 않는다 — 그것은 회원 중앙은행들의 영역이다. 그러나 BIS 리서치 부문(Head of Research)은 영향력 있는 정책 지향 분석을 생산한다. 2025년 현재 BIS 리서치 총괄은 Hyun Song Shin으로, BIS Bulletin No. 105(FX 헤징과 달러 약세)의 공동 저자다.
+BIS 자체는 통화정책을 설정하지 않는다 — 그것은 회원 중앙은행들의 영역이다. 그러나 BIS 리서치 부문(Head of Research)은 영향력 있는 정책 지향 분석을 생산한다. 2025년 현재 BIS 리서치 총괄은 [[entities/hyun-song-shin]]으로, BIS Bulletin No. 105(FX 헤징과 달러 약세)의 공동 저자다. 2024년 8월 Jackson Hole에서 Bloomberg Odd Lots 팟캐스트에 출연해 엔 캐리 트레이드의 실제 규모·메커니즘·정책 교훈을 설명했다.
 
 BIS의 분석적 입장은 대체로 다음을 강조한다:
 - 금융 중개, 특히 크로스보더 중개에서 비롯되는 시스템 리스크
@@ -37,6 +37,11 @@ BIS의 분석적 입장은 대체로 다음을 강조한다:
 | **BIS 분기보고서(Quarterly Review)** | 정책 분석, 특별 기고, 통계 업데이트 |
 | **BIS 워킹페이퍼** | 연구 논문; Bulletin No. 105 인용: Nenova et al. 2025 (글로벌 포트폴리오 투자) |
 | **BIS 불레틴(Bulletins)** | 단기 정책 노트; BIS Bulletin No. 105가 해당 |
+
+**신현송 박사 인터뷰 인용 주요 통계** (2024-08-29, BIS 자체 데이터):
+- 엔화 크로스보더 외화 차입 잔액: 약 **40조엔 ($2,700억)** — 2023년 급증. 이 중 역내외 사무소간(interoffice) 대출 **14조엔**
+- 엔/기타통화 FX 스왑 시장 규모: 약 **$14조** — 온밸런스시트 엔화 차입의 약 52배. 실질 캐리 트레이드의 주된 경로
+- BIS는 FX 스왑 데이터(주도 당사자, 부킹 위치, 섹터 분류) 고도화 작업 진행 중
 
 **Bulletin No. 105 인용 주요 통계** (2024년 말):
 - FX 파생상품 명목 잔액: **130조 달러** (크로스보더 채권 잔액의 약 3배)
@@ -55,3 +60,4 @@ BIS의 분석적 입장은 대체로 다음을 강조한다:
 
 - [[entities/japanese-life-insurers]] — BIS 연구에서 주요 사례로 다루는 아시아 기관투자자
 - [[entities/taiwanese-life-insurers]] — BIS Bulletin No. 105의 핵심 사례 분석 대상
+- [[entities/hyun-song-shin]] — BIS 수석이코노미스트 겸 리서치 총괄; BIS 데이터 생산·해석의 핵심 인물

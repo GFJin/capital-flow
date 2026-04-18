@@ -57,6 +57,7 @@ Master catalog of all wiki pages. Every page in the wiki must have an entry here
 | [[entities/imf]] | 국제금융기구 (신뢰 출처) | bonds, portfolio-flow, fx, interest-rate, emerging-markets, developed-markets | 2026-04-12 |
 | [[entities/ecb]] | central-bank (유로존) | bonds, fx, interest-rate, inflation, central-bank, europe | 2026-04-12 |
 | [[entities/boj]] | central-bank (일본) | central-bank, japan, interest-rate, fx, carry-trade, dollar-cycle | 2026-04-18 |
+| [[entities/hyun-song-shin]] | market-participant (BIS 수석이코노미스트) | fx, carry-trade, liquidity, interest-rate, dollar-cycle, structural, well-established | 2026-04-18 |
 
 ## Summaries
 
@@ -74,6 +75,7 @@ Master catalog of all wiki pages. Every page in the wiki must have an entry here
 | [[summaries/citi-jpy-carry-capitulation-240806]] | raw/Japan_FX_Capitulation_of_JPY_carry_Only_the_beginning_of_the_end-Japan_FX.pdf | 2024년 8월 JPY 캐리 청산 분석, carry/vol 비율, FX 개입 누적 효과, 리얼머니·레버리지 포지션, USDJPY 중장기 하락 전망 | 2026-04-18 |
 | [[summaries/sg-systematic-investor-240809]] | raw/2024-08-09-Societe Generale-The Systematic Investor Report - Recent market turmoil _ Wha...-109778177.pdf | VIX 역대 2위 충격, 퀀트 전략 성과(FX 캐리 최악), CTA 포지셔닝, 꼬리 헤지(SDV·DPR) 성과, 변동성 이후 캐리 기회 | 2026-04-18 |
 | [[summaries/nomura-jpy-weekly-240809]] | raw/24809_Significant position unwinding, and what is USDJPYs next move_nomura.pdf | JPY 숏 80% 청산 추정, 여름 유동성 계절성, BOJ 우치다 발언, GPIF 리밸런싱 방향, Citi vs. Nomura 전망 충돌 | 2026-04-18 |
+| [[summaries/hyunsongshin-oddlots-240829]] | raw/240829_엔 캐리 트레이드가 실제로 무엇인지에 대해 말하다_신현송박사_원본.pdf | BIS FX 스왑 규모($14조), 오프밸런스시트 캐리 메커니즘, VaR 교차자산 전염, 달러-엔 베이시스 진단, 글로벌 금융여건 재해석 | 2026-04-18 |
 
 ## Syntheses
 
@@ -83,12 +85,12 @@ Master catalog of all wiki pages. Every page in the wiki must have an entry here
 
 ## 통계
 
-- **총 페이지 수**: 54
+- **총 페이지 수**: 56
 - **개념**: 30
-- **엔티티**: 10
-- **요약**: 13
+- **엔티티**: 11
+- **요약**: 14
 - **분석 종합**: 1
-- **인제스트된 출처**: 12
-- **신뢰도 high**: 48
+- **인제스트된 출처**: 13
+- **신뢰도 high**: 50
 - **신뢰도 medium**: 5
 - **신뢰도 low**: 0
