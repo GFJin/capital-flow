@@ -4,7 +4,7 @@ type: concept
 tags: [carry-trade, fx, japan, interest-rate, risk-appetite, portfolio-flow, deleveraging, cyclical, well-established]
 created: 2026-04-17
 updated: 2026-04-18
-sources: ["raw/20240417_B_20210092_852.pdf", "raw/Japan_FX_Capitulation_of_JPY_carry_Only_the_beginning_of_the_end-Japan_FX.pdf", "raw/2024-08-09-Societe Generale-The Systematic Investor Report - Recent market turmoil _ Wha...-109778177.pdf", "raw/24809_Significant position unwinding, and what is USDJPYs next move_nomura.pdf", "raw/240829_엔 캐리 트레이드가 실제로 무엇인지에 대해 말하다_신현송박사_원본.pdf", "raw/240816_How can we estimate the size of yen carry trade positions from existing statistics_Nomura.pdf"]
+sources: ["raw/20240417_B_20210092_852.pdf", "raw/Japan_FX_Capitulation_of_JPY_carry_Only_the_beginning_of_the_end-Japan_FX.pdf", "raw/2024-08-09-Societe Generale-The Systematic Investor Report - Recent market turmoil _ Wha...-109778177.pdf", "raw/24809_Significant position unwinding, and what is USDJPYs next move_nomura.pdf", "raw/240829_엔 캐리 트레이드가 실제로 무엇인지에 대해 말하다_신현송박사_원본.pdf", "raw/240816_How can we estimate the size of yen carry trade positions from existing statistics_Nomura.pdf", "raw/BOFA_YENCARRY.pdf"]
 confidence: high
 ---
 
@@ -174,4 +174,5 @@ KCIF는 현재(2026년 초) 4요소 모두 캐리 우호적임에도 두 가지 
 - `raw/24809_Significant position unwinding, and what is USDJPYs next move_nomura.pdf` — Nomura Securities (Yujiro Goto 외), 2024-08-09: **CFTC 기준 JPY 숏 80% 청산 완료. 여름 유동성 계절성, GPIF 리밸런싱 반대 압력, BOJ 우치다 발언. Citi 대비 온건한 엔화 강세 전망**
 - `raw/240829_엔 캐리 트레이드가 실제로 무엇인지에 대해 말하다_신현송박사_원본.pdf` — BIS 신현송 박사 (Bloomberg Odd Lots), 2024-08-29: **캐리 트레이드 과잉 강조 경계. VaR 연동 교차자산 매도가 주요 전달 경로. 달러-엔 FX 베이시스 거의 변동 없음 → 엔 반제 동인 확인**
 - `raw/240816_How can we estimate the size of yen carry trade positions from existing statistics_Nomura.pdf` — Nomura Securities (Yujiro Goto 외), 2024-08-16: **CFTC Aug 6 ≈ 0 (투기적 청산 완료 확인). BOJ/BIS/CFTC 3종 프록시 정의·한계. MOF 주간 플로우(Aug 4-10). BIS 데이터 시차(Dec-24까지 전체 청산 규모 미파악)**
+- `raw/BOFA_YENCARRY.pdf` — BofA Global Research (Shusuke Yamada 외), 2024-08-07: **CFTC Jul 30 기준 60% 축소. 구조적 자본 유출(FDI·NISA)은 청산 대상 아님. 사이클 헤저(생보사·수출기업 Tankan ¥142.8)가 USD/JPY 반등 억제. BofA 전망: End-2024=155, End-2025=147**
 - `raw/260108-캐리트레이드+여건+분석.pdf` — KCIF (김용준 전문위원), 2026-01-08: **2026년 4요소 캐리 우호 판정. 신규 청산 트리거 2가지(BOJ 금리인상 + AI 레버리지 연쇄). Goldman Sachs 위험 프리미엄 축소 경고**

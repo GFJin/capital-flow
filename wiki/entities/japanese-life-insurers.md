@@ -4,7 +4,8 @@ type: entity
 tags: [portfolio-flow, bonds, fx, japan, asia, interest-rate, dollar-cycle, structural, well-established]
 created: 2026-04-11
 updated: 2026-04-18
-sources: ["raw/bisbull105.md", "raw/240809_Sharp fall in USDJPY and investors reactions_Nomura.pdf"]
+sources: ["raw/bisbull105.md", "raw/240809_Sharp fall in USDJPY and investors reactions_Nomura.pdf", "raw/BOFA_YENCARRY.pdf"]
+updated: 2026-04-18
 confidence: high
 ---
 
@@ -58,6 +59,15 @@ Nomura(2024-08-09)는 대형 8개 생보사 가중평균 기준으로 다음과 
 
 → 두 조건이 모두 충족되지 않는 한(2024년 8월 시점), 일본 생보사의 적극적 헤지 비율 상승 유인은 제한적. 단기 방향: **중립~소폭 엔화 긍정**.
 
+## FX 표시 보험상품 — 무헤지 해외채 증가의 숨겨진 원인
+
+BofA(2024-08-07)는 일본 생보사의 무헤지 해외채 증가를 단순한 투자 결정으로 보지 않고 **FX 표시 보험상품(FX-denominated insurance plans)** 수요 증가에 기인한 부분도 있다고 지적:
+
+- **구조**: FX 표시 보험상품을 판매하면 생보사는 해당 외화 표시 부채를 보유 → 매칭 원칙상 외화 표시 자산(무헤지 해외채) 편입 필요
+- **결과**: 이 경우 생보사가 능동적으로 헤지 비율을 낮춘 것이 아니라 상품 구조상 자연스럽게 무헤지 포지션이 증가한 것
+- **정책적 함의**: 이런 포지션은 **캐리 트레이드 청산으로 분류 불가** — 보험 계약 부채가 있는 한 강제 청산이 구조적으로 어려움
+- BofA는 이를 "Structural outflows ≠ yen carry trade" 테제의 근거 중 하나로 활용
+
 ## 관련 엔티티
 
 - [[entities/bis]] — BIS 데이터·연구에서 일본 생보사 플로우 추적; BIS Bulletin No. 105가 1차 출처
@@ -65,3 +75,4 @@ Nomura(2024-08-09)는 대형 8개 생보사 가중평균 기준으로 다음과 
 - [[entities/gpif]] — 일본의 또 다른 주요 기관투자자; 생보사와 달리 사실상 무헤지 운용
 - [[summaries/nomura-jpy-flow-special-240809]] — 가정환율·헤지 비율 트리거 분석 출처
 - [[summaries/bisbull105]] — 2025년 4월 에피소드에서 생보사의 사후 헤징 행태 분석
+- [[summaries/bofa-yen-carry-structural-240807]] — FX 표시 보험상품 구조, 사이클 헤저로서의 생보사 역할

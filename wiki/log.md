@@ -20,6 +20,27 @@ Each entry follows this format:
 
 ---
 
+### 2026-04-18 — Ingest: raw/BOFA_YENCARRY.pdf
+
+- **Source/Trigger**: 사용자 명령 `BOFA_YENCARRY ingest`
+- **출처**: BofA Global Research (Shusuke Yamada, CFA; Izumi Devalier; Adarsh Sinha; Janice Xue), 2024-08-07, Liquid Insight
+- **Pages created**:
+  - `wiki/summaries/bofa-yen-carry-structural-240807.md` — 요약 페이지 (신규)
+- **Pages updated**:
+  - `wiki/concepts/yen-carry-trade.md` — "구조적 자본 유출 ≠ 캐리 트레이드" 섹션 신규, "사이클 헤저(생보사·수출기업 ¥142.8)" 섹션 신규, TFX MXN/JPY ¥170bn 피크 데이터 추가, 2024 사례 Citi·Nomura·BofA 3각 비교 테이블로 확장, 출처 추가
+  - `wiki/entities/japanese-life-insurers.md` — "FX 표시 보험상품 — 무헤지 해외채 증가의 숨겨진 원인" 섹션 신규 추가, 관련 엔티티 업데이트, 출처 추가
+  - `wiki/concepts/carry-trade-unwind.md` — Sources에 BofA 항목 추가 (CFTC Jul 30 60% 축소, 구조적 유출 구분, 사이클 헤저)
+  - `wiki/concepts/cross-currency-basis.md` — "일본 주식↔USD/JPY 베이시스 연동 메커니즘 (BofA)" 섹션 신규 추가, 출처 추가
+  - `wiki/index.md` — 요약 1개 등록, 통계 업데이트 (총 60페이지, 요약 18개, 출처 17개)
+- **Notes**:
+  - BofA의 핵심 기여: "구조적 자본 유출 ≠ 엔 캐리 트레이드" 이분법. 동일한 엔화 약세 압력을 만들어도 FDI·NISA 자금은 금리차 수익 목적이 아니므로 캐리 청산에 포함할 수 없다는 개념적 구분 → yen-carry-trade.md에 별도 섹션으로 문서화
+  - 수출기업 Tankan 가정환율 ¥142.8: 외환 시장의 구조적 저항선 역할. 스팟이 이 수준에 근접 시 수출기업 USD 매도 쏟아짐 → 단기 반등 억제. 기존 wiki에 없던 구체적 데이터 포인트
+  - FX 표시 보험상품: japanese-life-insurers.md의 "무헤지 해외채 증가 ≠ 단순 투자 결정" 논리 강화. BofA·Nomura 두 출처에서 같은 방향의 설명 제공
+  - 일본 주식↔베이시스 연동: cross-currency-basis.md에 새로운 실증 채널 추가. 신현송(BIS)의 VaR 교차자산 전염과 다른 경로이지만 결과 유사 → 비교 노트 삽입
+  - CFTC 타임라인 완성: BofA(Jul 30 = 40% 잔존) → Nomura(Aug 9 = 80% 청산) → Nomura 규모 보고서(Aug 6 ≈ 0). 세 데이터 포인트가 시계열적으로 연결돼 투기 포지션 청산 경로 완전 재구성 가능
+
+---
+
 ### 2026-04-18 — Ingest: raw/260108-캐리트레이드+여건+분석.pdf
 
 - **Source/Trigger**: 사용자 명령 `ingest 260108-캐리트레이드+여건+분석.pdf`

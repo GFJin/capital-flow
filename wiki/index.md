@@ -79,6 +79,7 @@ Master catalog of all wiki pages. Every page in the wiki must have an entry here
 | [[summaries/nomura-jpy-flow-special-240809]] | raw/240809_Sharp fall in USDJPY and investors reactions_Nomura.pdf | 일본 5대 투자자 유형별 플로우: 생보사 가정환율·헤지 트리거, GPIF ¥4.7조 리밸런싱, NISA 환매, 수출기업 목표환율, Mrs. Watanabe 역발상 | 2026-04-18 |
 | [[summaries/nomura-yen-carry-size-240816]] | raw/240816_How can we estimate the size of yen carry trade positions from existing statistics_Nomura.pdf | BOJ $68bn/BIS $271bn/CFTC~$0 3종 프록시, 온↔오프밸런스 구조 전환, MOF 주간(Aug 4-10), 우리다시 채권, 신현송 X 포스트(BIS=최대치) | 2026-04-18 |
 | [[summaries/kcif-carry-trade-conditions-260108]] | raw/260108-캐리트레이드+여건+분석.pdf | 글로벌 캐리트레이드 4요소 여건 분석(2026년 초 모두 우호), 달러 캐리트레이드 부상, 원자재 보유국 통화 선호, BOJ+AI 레버리지 청산 트리거 경고 | 2026-04-18 |
+| [[summaries/bofa-yen-carry-structural-240807]] | raw/BOFA_YENCARRY.pdf | 구조적 자본 유출≠캐리 트레이드 이분법, tsumitate NISA(DCA), 수출기업 Tankan ¥142.8, 사이클 헤저, 일본 주식↔베이시스 연동, USD/JPY 전망 수정(End-2024=155) | 2026-04-18 |
 
 ## Syntheses
 
@@ -88,12 +89,12 @@ Master catalog of all wiki pages. Every page in the wiki must have an entry here
 
 ## 통계
 
-- **총 페이지 수**: 59
+- **총 페이지 수**: 60
 - **개념**: 30
 - **엔티티**: 11
-- **요약**: 17
+- **요약**: 18
 - **분석 종합**: 1
-- **인제스트된 출처**: 16
-- **신뢰도 high**: 53
+- **인제스트된 출처**: 17
+- **신뢰도 high**: 54
 - **신뢰도 medium**: 5
 - **신뢰도 low**: 0
