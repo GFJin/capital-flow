@@ -3,8 +3,8 @@ title: "캐리 트레이드 청산 (Carry Trade Unwind)"
 type: concept
 tags: [carry-trade, fx, japan, interest-rate, risk-appetite, portfolio-flow, deleveraging, cyclical, well-established]
 created: 2026-04-17
-updated: 2026-04-17
-sources: ["raw/20240417_B_20210092_852.pdf"]
+updated: 2026-04-18
+sources: ["raw/20240417_B_20210092_852.pdf", "raw/Japan_FX_Capitulation_of_JPY_carry_Only_the_beginning_of_the_end-Japan_FX.pdf"]
 confidence: high
 ---
 
@@ -74,9 +74,20 @@ confidence: high
 - **2차·4차 완만한 청산과 현재(2024)의 차이**: 2차는 달러 청산만, 4차는 금리차 자체가 미미. 현재는 미-일·유-일 금리차 모두 역대 최대 수준으로 USD·EUR 동시 청산 가능성
 - **환율 변동성이 금리차보다 중요**: 금리차가 커도 환 변동성이 낮으면 청산 유인 제한적. 청산의 실질적 방아쇠는 환율 변동성 확대
 
+## 2024년 8월 사례: 조기 청산과 FX 개입 효과
+
+Citi Research(2024-08-05)는 2024년 8월 청산이 과거 패턴과 다른 이유를 다음과 같이 분석:
+
+- **청산 조건 미충족 상태에서 청산 발생**: 미-일 단기금리차 여전히 5% 초과, [[concepts/carry-vol-ratio]] 50% 하회했으나 40% 미도달 — 과거 기준으로는 청산 조건 불충족
+- **FX 개입 누적 효과**: 일본 재무성이 2022년부터 지속한 엔화 매수 개입이 USDJPY 수급 구조를 점진적으로 개선. 이 누적 효과가 임계값 도달 전에 청산 전환점을 앞당긴 것으로 Citi는 판단
+- **포지션 구조**: 레버리지 투자자뿐 아니라 리얼머니(생보사·연기금 등) 및 기업 섹터에도 대규모 JPY 숏 포지션 잔존. 최근 몇 달 내 투기적 포지션은 일부 청산됐으나 수년간 누적된 포지션은 여전히 대규모
+- **반등 억제·청산 지속 요인**: NISA 해외 투자, 일본 SME USD 헤지 재구축, 크로스보더 M&A → 단기 반등은 가능하나 중장기 하락 추세 유지 전망
+- **"끝의 시작"**: Citi는 2024년 8월 청산을 최종 청산이 아닌 다년간의 청산 사이클 초입으로 규정. 전망: ¥145/$(2025) → ¥129/$(2026) → ¥116/$(2027)
+
 ## Related Concepts
 
 - [[concepts/yen-carry-trade]] — 캐리 트레이드 구축 메커니즘
+- [[concepts/carry-vol-ratio]] — 청산 발동 임계값 모니터링 지표
 - [[concepts/crowded-trade]] — 대규모 누적 포지션의 집중 리스크
 - [[concepts/procyclical-leverage]] — 레버리지 축소의 자기강화 특성
 - [[concepts/risk-appetite]] — 위험선호 전환이 청산 촉매
@@ -86,3 +97,4 @@ confidence: high
 ## Sources
 
 - `raw/20240417_B_20210092_852.pdf` — 교보증권 리서치센터, 2024-04-17
+- `raw/Japan_FX_Capitulation_of_JPY_carry_Only_the_beginning_of_the_end-Japan_FX.pdf` — Citi Research (Osamu Takashima 외), 2024-08-05

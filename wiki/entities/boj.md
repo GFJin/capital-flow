@@ -4,8 +4,8 @@ type: entity
 subtype: central-bank
 tags: [central-bank, japan, interest-rate, fx, carry-trade, dollar-cycle, developed-markets, quantitative, qualitative]
 created: 2026-04-17
-updated: 2026-04-17
-sources: ["raw/20240417_B_20210092_852.pdf"]
+updated: 2026-04-18
+sources: ["raw/20240417_B_20210092_852.pdf", "raw/Japan_FX_Capitulation_of_JPY_carry_Only_the_beginning_of_the_end-Japan_FX.pdf"]
 confidence: high
 ---
 
@@ -15,11 +15,12 @@ confidence: high
 
 ## Policy Stance
 
-- **현재 금리 (2024년 3월 기준)**: 0.1% (정책금리 유도 목표)
+- **현재 금리 (2024년 8월 기준)**: 0.25% (정책금리 유도 목표)
   - 2024년 3월: -0.1% → 0.1%로 인상 — 2007년 이후 17년 만의 첫 금리 인상, 2016년 2월 이후 마이너스 금리 탈피
-- **YCC (Yield Curve Control)**: 2016년 도입, 이후 단계적 조정 중
-- **포워드 가이던스**: 물가·임금의 선순환 강화 확인 시 추가 인상 가능성 열어둠. 단, 정상화 속도는 더딜 것으로 전망
-- **2024년 환경**: 춘투 임금 인상률 약 5% (1991년 이후 최대), 소매판매 개선, GDP 갭 플러스 전환 기대
+  - 2024년 8월 1일: 0.1% → 0.25%로 추가 인상. 기존 예상보다 매파적 스탠스 표명 (Citi 평가)
+- **YCC (Yield Curve Control)**: 2016년 도입, 이후 단계적 조정 후 사실상 폐기 수순
+- **포워드 가이던스**: 물가·임금의 선순환 강화 확인 시 추가 인상 가능성 열어둠
+- **2024년 환경**: 춘투 임금 인상률 약 5% (1991년 이후 최대), 소매판매 개선. 8월 인상 이후 시장은 추가 긴축 가능성 반영 강화
 
 ## Key Tools
 
@@ -42,6 +43,7 @@ confidence: high
 | 2016.02 | 마이너스 금리(-0.1%) 도입 | 역설적으로 엔화 강세 유발 → 4차 청산 가속 |
 | 2022~2023 | YCC 밴드 확대, 사실상 YCC 유연화 | 엔화 약세 완화, 청산 우려 부상 |
 | 2024.03 | 금리 -0.1% → 0.1% 인상 | 엔캐리 청산 촉매 요인으로 작용 가능 |
+| 2024.08.01 | 금리 0.1% → 0.25% 추가 인상, 매파적 스탠스 | USDJPY ¥20 급락 유발. 수년간 누적된 엔캐리 청산 가속 (Citi: "끝의 시작") |
 
 ## Related Entities
 

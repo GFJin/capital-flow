@@ -1,7 +1,7 @@
 ---
 title: "Knowledge Base Index"
 type: index
-updated: 2026-04-12
+updated: 2026-04-18
 ---
 
 # Knowledge Base Index
@@ -37,8 +37,9 @@ Master catalog of all wiki pages. Every page in the wiki must have an entry here
 | [[concepts/hedge-fund]] | portfolio-flow, equities, bonds, fx, commodities, liquidity, risk-appetite, structural | medium | 2026-04-12 |
 | [[concepts/quant-meltdown]] | equities, liquidity, risk-appetite, portfolio-flow, structural, cyclical | medium | 2026-04-12 |
 | [[concepts/crowded-trade]] | equities, portfolio-flow, risk-appetite, liquidity, structural, cyclical | medium | 2026-04-12 |
-| [[concepts/yen-carry-trade]] | carry-trade, fx, japan, interest-rate, risk-appetite, portfolio-flow, dollar-cycle, well-established | high | 2026-04-17 |
-| [[concepts/carry-trade-unwind]] | carry-trade, fx, japan, interest-rate, risk-appetite, portfolio-flow, deleveraging, cyclical, well-established | high | 2026-04-17 |
+| [[concepts/yen-carry-trade]] | carry-trade, fx, japan, interest-rate, risk-appetite, portfolio-flow, dollar-cycle, well-established | high | 2026-04-18 |
+| [[concepts/carry-trade-unwind]] | carry-trade, fx, japan, interest-rate, risk-appetite, portfolio-flow, deleveraging, cyclical, well-established | high | 2026-04-18 |
+| [[concepts/carry-vol-ratio]] | carry-trade, fx, japan, interest-rate, risk-appetite, quantitative, cyclical, well-established | high | 2026-04-18 |
 
 ## Entities
 
@@ -53,7 +54,7 @@ Master catalog of all wiki pages. Every page in the wiki must have an entry here
 | [[entities/russell-napier]] | market-participant (전략가·금융역사가) | interest-rate, inflation, bonds, equities, structural, qualitative, well-established | 2026-04-12 |
 | [[entities/imf]] | 국제금융기구 (신뢰 출처) | bonds, portfolio-flow, fx, interest-rate, emerging-markets, developed-markets | 2026-04-12 |
 | [[entities/ecb]] | central-bank (유로존) | bonds, fx, interest-rate, inflation, central-bank, europe | 2026-04-12 |
-| [[entities/boj]] | central-bank (일본) | central-bank, japan, interest-rate, fx, carry-trade, dollar-cycle | 2026-04-17 |
+| [[entities/boj]] | central-bank (일본) | central-bank, japan, interest-rate, fx, carry-trade, dollar-cycle | 2026-04-18 |
 
 ## Summaries
 
@@ -68,6 +69,7 @@ Master catalog of all wiki pages. Every page in the wiki must have an entry here
 | [[summaries/nbfi-systemic-risk]] | raw/비은행 금융중개의 취약성과 시스템 리스크 관리 방안.md | NBFI 구조적 성장, 거시-시장 괴리, 3대 취약성, 통화정책 전파 경로 변형, 정책 대응 | 2026-04-12 |
 | [[summaries/hedge-fund-industry-analysis]] | raw/헤지펀드 산업 분석 및 시장 역학 브리핑 보고서.md | 헤지펀드 구조·전략, 고금리 환경 이점, 2007년 퀀트 멜트다운, 과밀 거래 꼬리 리스크 | 2026-04-12 |
 | [[summaries/kyobo-yen-carry-unwind-240417]] | raw/20240417_B_20210092_852.pdf | 엔캐리 5차 청산 역사, 2024년 완만한 청산 전망, 리스크 5가지, 한국 증시 영향 | 2026-04-17 |
+| [[summaries/citi-jpy-carry-capitulation-240806]] | raw/Japan_FX_Capitulation_of_JPY_carry_Only_the_beginning_of_the_end-Japan_FX.pdf | 2024년 8월 JPY 캐리 청산 분석, carry/vol 비율, FX 개입 누적 효과, 리얼머니·레버리지 포지션, USDJPY 중장기 하락 전망 | 2026-04-18 |
 
 ## Syntheses
 
@@ -77,12 +79,12 @@ Master catalog of all wiki pages. Every page in the wiki must have an entry here
 
 ## 통계
 
-- **총 페이지 수**: 48
-- **개념**: 27
+- **총 페이지 수**: 50
+- **개념**: 28
 - **엔티티**: 10
-- **요약**: 10
+- **요약**: 11
 - **분석 종합**: 1
-- **인제스트된 출처**: 9
-- **신뢰도 high**: 42
+- **인제스트된 출처**: 10
+- **신뢰도 high**: 44
 - **신뢰도 medium**: 5
 - **신뢰도 low**: 0

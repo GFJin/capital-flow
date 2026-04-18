@@ -20,6 +20,25 @@ Each entry follows this format:
 
 ---
 
+### 2026-04-18 — Ingest: raw/Japan_FX_Capitulation_of_JPY_carry_Only_the_beginning_of_the_end-Japan_FX.pdf
+
+- **Source/Trigger**: 사용자 명령 `ingest Japan_FX_Capitulation_of_JPY_carry_Only_the_beginning_of_the_end-Japan_FX.pdf`
+- **출처**: Citi Research (Osamu Takashima, Daniel Tobon, Brian Levine), 2024-08-05, 11페이지 Viewpoint 보고서
+- **Pages created**:
+  - `wiki/summaries/citi-jpy-carry-capitulation-240806.md` — 요약 페이지 (신규)
+  - `wiki/concepts/carry-vol-ratio.md` — 캐리/변동성 비율 개념 (신규)
+- **Pages updated**:
+  - `wiki/concepts/yen-carry-trade.md` — 2024년 8월 청산 사례 섹션 추가, 출처 추가
+  - `wiki/concepts/carry-trade-unwind.md` — 2024년 8월 사례 분석 섹션 추가, FX 개입 누적 효과 기술, 출처 추가
+  - `wiki/entities/boj.md` — 2024년 8월 1일 0.25% 인상 이력 추가, Policy Stance 업데이트
+  - `wiki/index.md` — 신규 페이지 2개 등록, 업데이트 날짜 반영, 통계 업데이트
+- **Notes**:
+  - 교보증권(2024-04-17) 보고서는 2024년 4월 시점에 "완만한 청산" 가능성을 전망했으나, Citi(2024-08-05)는 실제로 2024년 8월 급격한 청산이 발생했음을 확인 → 두 보고서 간 전망 vs. 실현 대비가 가능한 가치 있는 데이터 포인트
+  - Citi 특이 발견: carry/vol 비율이 과거 대세 전환 임계값(40%)에 도달하기 전에 FX 개입 누적 효과로 청산이 조기 발생 → `carry-vol-ratio` 개념 페이지 신규 생성하여 이 메커니즘 포착
+  - USDJPY 전망(¥145→¥129→¥116)은 2024년 8월 시점 Citi 공식 예상치. 이후 실제 전개와 비교 검토 필요 (2026년 4월 현재 기준 검증 가능)
+
+---
+
 ### 2026-04-17 — Ingest: raw/20240417_B_20210092_852.pdf
 
 - **Source/Trigger**: 사용자 명령 `ingest 20240417_B_20210092_852.pdf`

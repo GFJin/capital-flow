@@ -3,8 +3,8 @@ title: "엔 캐리 트레이드 (Yen Carry Trade)"
 type: concept
 tags: [carry-trade, fx, japan, interest-rate, risk-appetite, portfolio-flow, dollar-cycle, well-established]
 created: 2026-04-17
-updated: 2026-04-17
-sources: ["raw/20240417_B_20210092_852.pdf"]
+updated: 2026-04-18
+sources: ["raw/20240417_B_20210092_852.pdf", "raw/Japan_FX_Capitulation_of_JPY_carry_Only_the_beginning_of_the_end-Japan_FX.pdf"]
 confidence: high
 ---
 
@@ -61,9 +61,18 @@ confidence: high
 - **규모 측정 어려움**: 엔캐리 트레이드의 정확한 시점·규모·자금 흐름 추적 불가. 대체변수로만 추정
 - **USD·EUR 캐리의 비동조화**: 달러-엔과 유로-엔 캐리지수는 시기에 따라 다른 흐름. 구분 분석 필요
 
+## 2024년 8월 청산 사례 (Citi Research 관찰)
+
+Citi Research(2024-08-05)는 2024년 8월 USDJPY ¥20 급락을 분석하며 다음 사항을 확인:
+- **포지션 규모**: CitiFX Position Index 기준, 레버리지 투자자뿐 아니라 리얼머니(장기) 투자자 및 기업 섹터까지 대규모 JPY 숏 포지션 누적 (2021년 6월 이후 누적)
+- **반등 억제 요인**: NISA 해외 투자 지속, 일본 SME의 USD 헤지 재구축, 일본 기업 크로스보더 M&A 증가 → 단기 JPY 매도 압력 지속
+- **조기 청산 요인**: [[concepts/carry-vol-ratio]]가 40% 미만에 도달하기 전에 일본 재무성의 FX 개입 누적 효과로 청산 전환점이 앞당겨짐
+- **Citi USDJPY 전망**: ¥145/$(2025) → ¥129/$(2026) → ¥116/$(2027)
+
 ## Related Concepts
 
 - [[concepts/carry-trade-unwind]] — 청산 메커니즘·5차 역사 케이스
+- [[concepts/carry-vol-ratio]] — 청산 임계값 모니터링 핵심 지표
 - [[concepts/fx-hedging]] — 환율 리스크 관리
 - [[concepts/dollar-cycle]] — 달러 사이클과 엔화 방향성
 - [[concepts/crowded-trade]] — 대규모 누적 포지션의 집중 리스크
@@ -73,3 +82,4 @@ confidence: high
 ## Sources
 
 - `raw/20240417_B_20210092_852.pdf` — 교보증권 리서치센터, 2024-04-17
+- `raw/Japan_FX_Capitulation_of_JPY_carry_Only_the_beginning_of_the_end-Japan_FX.pdf` — Citi Research (Osamu Takashima 외), 2024-08-05
