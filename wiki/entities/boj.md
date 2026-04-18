@@ -5,7 +5,7 @@ subtype: central-bank
 tags: [central-bank, japan, interest-rate, fx, carry-trade, dollar-cycle, developed-markets, quantitative, qualitative]
 created: 2026-04-17
 updated: 2026-04-18
-sources: ["raw/20240417_B_20210092_852.pdf", "raw/Japan_FX_Capitulation_of_JPY_carry_Only_the_beginning_of_the_end-Japan_FX.pdf"]
+sources: ["raw/20240417_B_20210092_852.pdf", "raw/Japan_FX_Capitulation_of_JPY_carry_Only_the_beginning_of_the_end-Japan_FX.pdf", "raw/24809_Significant position unwinding, and what is USDJPYs next move_nomura.pdf"]
 confidence: high
 ---
 
@@ -43,7 +43,8 @@ confidence: high
 | 2016.02 | 마이너스 금리(-0.1%) 도입 | 역설적으로 엔화 강세 유발 → 4차 청산 가속 |
 | 2022~2023 | YCC 밴드 확대, 사실상 YCC 유연화 | 엔화 약세 완화, 청산 우려 부상 |
 | 2024.03 | 금리 -0.1% → 0.1% 인상 | 엔캐리 청산 촉매 요인으로 작용 가능 |
-| 2024.08.01 | 금리 0.1% → 0.25% 추가 인상, 매파적 스탠스 | USDJPY ¥20 급락 유발. 수년간 누적된 엔캐리 청산 가속 (Citi: "끝의 시작") |
+| 2024.08.01 | 금리 0.1% → 0.25% 추가 인상, 매파적 스탠스 | USDJPY ¥20 급락 유발. 수년간 누적된 엔캐리 청산 가속 (Citi: "끝의 시작"). Nomura: JPY 숏 80% 청산 |
+| 2024.08.07 | 우치다 신이치 부총재 발언: "시장 불안정 시 금리 인상 안 함" | 일시적 도비시 시그널 → 단기 시장 안정. Nomura는 인상 사이클 종료가 아닌 "when"의 문제로 해석 |
 
 ## Related Entities
 

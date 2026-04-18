@@ -20,6 +20,26 @@ Each entry follows this format:
 
 ---
 
+### 2026-04-18 — Ingest: raw/24809_Significant position unwinding, and what is USDJPYs next move_nomura.pdf
+
+- **Source/Trigger**: 사용자 명령 `ingest 24809_Significant position unwinding, and what is USDJPYs next move_nomura.pdf`
+- **출처**: Nomura Securities (Yujiro Goto 외), 2024-08-09, JPY Weekly 리서치 보고서
+- **Pages created**:
+  - `wiki/summaries/nomura-jpy-weekly-240809.md` — 요약 페이지 (신규)
+- **Pages updated**:
+  - `wiki/concepts/yen-carry-trade.md` — NISA 자금 흐름 약화, Nomura USDJPY 전망, Citi vs. Nomura 비교 섹션 추가, 출처 추가
+  - `wiki/concepts/carry-trade-unwind.md` — 청산 80% 완료 추정, 여름 유동성 계절성, BOJ 우치다 발언, Citi vs. Nomura 충돌 명시적 flag, 출처 추가
+  - `wiki/entities/boj.md` — 우치다 부총재 2024-08-07 발언("시장 불안 시 인상 안 함") 이력 추가, 출처 추가
+  - `wiki/entities/gpif.md` — 2024년 8월 포트폴리오 비중 추정(Nomura 기준) 및 ¥5조엔 리밸런싱 방향 섹션 신규 추가, 출처·관련 엔티티 업데이트
+  - `wiki/index.md` — 요약 1개 등록, 통계 업데이트 (총 54페이지, 요약 13개)
+- **Notes**:
+  - ⚠️ **Citi vs. Nomura 모순 flag**: Citi(2024-08-05)는 청산 잔여가 대규모로 "끝의 시작"으로 평가하고 USDJPY ¥116(2027) 전망. Nomura(2024-08-09)는 CFTC 기준 80% 청산 완료로 추가 급등 제한적이며 ¥140(Q4 2025) 전망. 측정 기준의 차이(투기적 포지션 vs. 리얼머니 포함 전체)로 모순이 설명될 수 있으나, USDJPY 중기 경로는 사실상 반대 방향
+  - GPIF 리밸런싱이 JPY 매도 방향(해외주식 매수)임을 Nomura가 명시 → Citi가 주목한 엔화 강세 지속 논리와 대치되는 단기 역방향 압력 요인
+  - 여름 유동성 계절성(오본 시즌 도쿄 FX 거래량 감소)은 구조적·반복적 패턴으로 매년 주목 필요
+  - 2024년 8월 이벤트를 세 개 기관(교보 4월 전망, Citi 8/5, SG 8/9, Nomura 8/9)이 다른 렌즈로 분석 — 교차 참조 가치 높음
+
+---
+
 ### 2026-04-18 — Ingest: raw/2024-08-09-Societe Generale-The Systematic Investor Report - Recent market turmoil.pdf
 
 - **Source/Trigger**: 사용자 명령 `ingest 2024-08-09-Societe Generale-The Systematic Investor Report...pdf`

@@ -3,8 +3,8 @@ title: "GPIF — 일본 공적연금투자기금 (Government Pension Investment 
 type: entity
 tags: [portfolio-flow, bonds, fx, japan, us, developed-markets, interest-rate, dollar-cycle, structural, well-established]
 created: 2026-04-11
-updated: 2026-04-11
-sources: ["raw/260326-일본+GPIF+포트폴리오+조정+가능성.pdf"]
+updated: 2026-04-18
+sources: ["raw/260326-일본+GPIF+포트폴리오+조정+가능성.pdf", "raw/24809_Significant position unwinding, and what is USDJPYs next move_nomura.pdf"]
 confidence: high
 ---
 
@@ -76,6 +76,22 @@ GPIF(Government Pension Investment Fund, 연금적립금관리운용독립행정
 - 가중평균 잔존만기 약 9년
 - 액티브 운용 비중: **44%** (해외채권 4%, 국내주식 5%에 비해 높음)
 
+## 2024년 8월 포트폴리오 추정 및 리밸런싱 방향 (Nomura)
+
+Nomura(2024-08-09)는 2024년 8월 초 주가 충격 이후 GPIF 포트폴리오를 다음과 같이 추정:
+
+| 자산군 | 충격 후 추정 비중 | 목표 비중 | 이탈 방향 |
+|--------|----------------|---------|---------|
+| 국내채권 | ~28% | 25% | 초과 |
+| 해외채권 | ~25% | 25% | 균형 |
+| 국내주식 | ~23% | 25% | 부족 |
+| 해외주식 | ~24% | 25% | 소폭 부족 |
+
+- **리밸런싱 방향**: 해외주식 비중 복원을 위해 약 **¥5조엔** 규모의 해외주식 매수(JPY 매도) 리밸런싱 가능성
+- **단기 JPY 영향**: 이 리밸런싱이 실행된다면 엔화 강세 압력에 역행하는 JPY 매도 수요 발생 → 2024년 8월 엔화 강세를 단기적으로 완충하는 요인
+
+> 주: GPIF는 포트폴리오 구성을 공표하지 않으며(분기 공시), Nomura 추정치임. 실제 리밸런싱 실행 여부 및 시기는 불확실.
+
 ## 국내투자 확대 가능성 및 제약
 
 **거론되는 시나리오** (KCIF 2025.3.26):
@@ -90,5 +106,8 @@ GPIF(Government Pension Investment Fund, 연금적립금관리운용독립행정
 ## 관련 엔티티
 
 - [[entities/japanese-life-insurers]] — 일본의 또 다른 주요 기관투자자; GPIF와 달리 상대적으로 높은 환헤지 비율
-- [[entities/kcif]] — 본 엔티티의 주요 분석 출처
+- [[entities/kcif]] — 본 엔티티의 주요 분석 출처 (KCIF 2025.3.26 보고서)
 - [[entities/bis]] — GPIF의 일본 생보사와 함께 글로벌 FX 헤징 연구에서 언급
+- [[entities/boj]] — BOJ 금리 인상이 GPIF 포트폴리오 리밸런싱 촉매로 작용
+- [[concepts/carry-trade-unwind]] — 2024년 8월 주가 충격 후 GPIF 리밸런싱 방향이 엔캐리 청산 방향과 일부 역행
+- [[summaries/nomura-jpy-weekly-240809]] — 2024년 8월 포트폴리오 추정 및 ¥5조엔 리밸런싱 분석 출처

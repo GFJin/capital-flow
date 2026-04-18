@@ -4,7 +4,7 @@ type: concept
 tags: [carry-trade, fx, japan, interest-rate, risk-appetite, portfolio-flow, dollar-cycle, well-established]
 created: 2026-04-17
 updated: 2026-04-18
-sources: ["raw/20240417_B_20210092_852.pdf", "raw/Japan_FX_Capitulation_of_JPY_carry_Only_the_beginning_of_the_end-Japan_FX.pdf"]
+sources: ["raw/20240417_B_20210092_852.pdf", "raw/Japan_FX_Capitulation_of_JPY_carry_Only_the_beginning_of_the_end-Japan_FX.pdf", "raw/24809_Significant position unwinding, and what is USDJPYs next move_nomura.pdf"]
 confidence: high
 ---
 
@@ -61,13 +61,26 @@ confidence: high
 - **규모 측정 어려움**: 엔캐리 트레이드의 정확한 시점·규모·자금 흐름 추적 불가. 대체변수로만 추정
 - **USD·EUR 캐리의 비동조화**: 달러-엔과 유로-엔 캐리지수는 시기에 따라 다른 흐름. 구분 분석 필요
 
-## 2024년 8월 청산 사례 (Citi Research 관찰)
+## 2024년 8월 청산 사례: Citi vs. Nomura 관점 비교
 
-Citi Research(2024-08-05)는 2024년 8월 USDJPY ¥20 급락을 분석하며 다음 사항을 확인:
+### Citi Research (2024-08-05) 관찰
+
+Citi Research는 2024년 8월 USDJPY ¥20 급락을 분석하며 다음 사항을 확인:
 - **포지션 규모**: CitiFX Position Index 기준, 레버리지 투자자뿐 아니라 리얼머니(장기) 투자자 및 기업 섹터까지 대규모 JPY 숏 포지션 누적 (2021년 6월 이후 누적)
 - **반등 억제 요인**: NISA 해외 투자 지속, 일본 SME의 USD 헤지 재구축, 일본 기업 크로스보더 M&A 증가 → 단기 JPY 매도 압력 지속
 - **조기 청산 요인**: [[concepts/carry-vol-ratio]]가 40% 미만에 도달하기 전에 일본 재무성의 FX 개입 누적 효과로 청산 전환점이 앞당겨짐
 - **Citi USDJPY 전망**: ¥145/$(2025) → ¥129/$(2026) → ¥116/$(2027)
+
+### Nomura (2024-08-09) 관찰
+
+Nomura는 동일 이벤트를 CFTC 투기적 포지션 데이터 기반으로 분석:
+- **JPY 숏 약 80% 청산 완료**: H1 2024 기간 구축된 포지션의 대부분이 이미 정리됨 → 추가 급격한 엔화 강세 압력 제한적
+- **NISA 자금 흐름 약화**: 2024년 7월 말부터 상위 10개 해외 주식 투신 순유입 감소 확인. H2 2024의 JPY 매도 압력은 H1 대비 구조적으로 약화
+- **여름 계절성**: 도쿄 USD/JPY 일평균 거래량이 7~8월에 구조적으로 감소 → 충격 증폭 메커니즘
+- **GPIF 리밸런싱 방향**: [[entities/gpif]] 포트폴리오 해외주식 비중 저하 → 약 ¥5조엔 규모 해외주식 매수(JPY 매도) 리밸런싱 가능성으로 오히려 단기 엔화 약세 압력
+- **Nomura USDJPY 전망**: Q3 2024 = ¥143, Q4 2024 = ¥148, Q1 2025 = ¥146, Q4 2025 = ¥140
+
+> ⚠️ **Citi vs. Nomura 모순**: Citi는 리얼머니·기업 포지션까지 포함해 "다년간 청산 사이클 초입"으로 평가한 반면, Nomura는 CFTC 투기적 포지션 기준 80% 청산 완료로 추가 급등 제한적으로 판단. 측정 대상의 차이(투기적 vs. 전체 포지션)가 결론 차이를 만든 것으로 보임.
 
 ## Related Concepts
 
@@ -83,3 +96,4 @@ Citi Research(2024-08-05)는 2024년 8월 USDJPY ¥20 급락을 분석하며 다
 
 - `raw/20240417_B_20210092_852.pdf` — 교보증권 리서치센터, 2024-04-17
 - `raw/Japan_FX_Capitulation_of_JPY_carry_Only_the_beginning_of_the_end-Japan_FX.pdf` — Citi Research (Osamu Takashima 외), 2024-08-05
+- `raw/24809_Significant position unwinding, and what is USDJPYs next move_nomura.pdf` — Nomura Securities (Yujiro Goto 외), 2024-08-09: **CFTC 기준 JPY 숏 80% 청산, NISA 자금 약화, GPIF 리밸런싱 방향, Citi 전망 대비 덜 강세적 엔화 시나리오**
