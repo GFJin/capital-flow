@@ -20,6 +20,26 @@ Each entry follows this format:
 
 ---
 
+### 2026-04-18 — Ingest: raw/240809_Sharp fall in USDJPY and investors reactions_Nomura.pdf
+
+- **Source/Trigger**: 사용자 명령 `ingest 240809_Sharp fall in USDJPY and investors reactions_Nomura.pdf`
+- **출처**: Nomura Securities (Yujiro Goto 외), 2024-08-09, Flow Special 리서치 보고서 (JPY Weekly와 동일 일자, 다른 시리즈)
+- **Pages created**:
+  - `wiki/summaries/nomura-jpy-flow-special-240809.md` — 요약 페이지 (신규)
+- **Pages updated**:
+  - `wiki/entities/japanese-life-insurers.md` — 외채 보유액 ¥15조(피크 ¥30조), 가정환율(스팟 147.16·목표 152.22), 헤지 비율 트리거 조건 2가지 신규 추가; 관련 엔티티 링크 추가
+  - `wiki/entities/gpif.md` — 환헤지 비율 정밀화(~0.5% AUM), 2024년 6월말 실제 포트폴리오(25.8%/24.4%/24.4%/25.3%) 추가, ¥5조→¥4.7조 양 보고서 수치 병기, 신 기본포트폴리오 2025.4 예정 추가; 출처 추가
+  - `wiki/concepts/fx-hedging.md` — 생보사 헤지 비율 억제 구조적 반론(수익률 논리·가정환율 기준) 섹션 신규 추가; 출처 추가
+  - `wiki/index.md` — 요약 1개 등록, 통계 업데이트 (총 57페이지, 요약 15개, 출처 14개)
+- **Notes**:
+  - 일본 생보사의 헤지 비율이 올라가지 않는 이유를 Nomura가 두 가지로 구조화: (1) 헤징 비용 > 수익률 우위, (2) USD/JPY가 가정환율(~147) 위에 있는 한 평가이익 발생. 두 조건 모두 미충족 시 헤지 추가 유인 제한 — 기존 fx-hedging.md의 "경기순응성" 섹션을 심화함
+  - Mrs. Watanabe 역발상 매수 임계값(USD/JPY ~127 전환점) 및 MXN/JPY 청산 완료 데이터를 처음 명시 — 개인 FX 투자자 행태의 정량적 임계값 확보
+  - GPIF ¥4.7조(Flow Special) vs. ¥5조(JPY Weekly) — 동일 날짜 두 Nomura 보고서 간 소폭 차이. gpif.md에 양 수치 병기. 큰 방향성은 동일(해외주식 매수, JPY 매도).
+  - 일본 순국제투자포지션 $3.2조(세계 최대 순채권국), 경상수지 ¥2조/월 데이터 확보 — 구조적 엔화 매수 압력의 정량적 배경
+  - 동일 이벤트(2024-08-09)를 다룬 보고서가 이제 4개(교보·Citi·SG·Nomura JPY Weekly·Nomura Flow Special) — 기관별 분석 관점 비교 가치 높음
+
+---
+
 ### 2026-04-18 — Ingest: raw/240829_엔 캐리 트레이드가 실제로 무엇인지에 대해 말하다_신현송박사_원본.pdf
 
 - **Source/Trigger**: 사용자 명령 `ingest 240829_엔 캐리 트레이드가 실제로 무엇인지에 대해 말하다_신현송박사_원본.pdf`

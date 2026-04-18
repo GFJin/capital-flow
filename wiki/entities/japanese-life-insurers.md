@@ -3,8 +3,8 @@ title: "일본 생명보험사"
 type: entity
 tags: [portfolio-flow, bonds, fx, japan, asia, interest-rate, dollar-cycle, structural, well-established]
 created: 2026-04-11
-updated: 2026-04-11
-sources: ["raw/bisbull105.md"]
+updated: 2026-04-18
+sources: ["raw/bisbull105.md", "raw/240809_Sharp fall in USDJPY and investors reactions_Nomura.pdf"]
 confidence: high
 ---
 
@@ -40,9 +40,28 @@ confidence: high
 
 - 역사적으로 국내(JGB) 편향이었으나, 2010년대 이후 저금리로 인해 해외 자산 비중이 구조적으로 증가.
 - 달러 채권이 해외 자산 배분의 핵심 — 일본 생보사는 미국 국채와 투자등급 회사채의 최대 해외 보유자 중 하나.
+- **외채 보유액** (Nomura, 2024-08-09): **~¥15조** — 피크 ~¥30조에서 절반 수준으로 축소. 이미 상당한 디레버리징 완료.
 - 보유 데이터: 일본은행 통계 및 재무성 대외증권 통계에서 집계치 확인 가능; 개별 보험사 데이터는 사업보고서에서 확인.
+
+## 가정환율과 헤지 비율 트리거
+
+Nomura(2024-08-09)는 대형 8개 생보사 가중평균 기준으로 다음과 같이 추정:
+
+| 구분 | 레벨 |
+|------|------|
+| **스팟 기준 가정환율** | USD/JPY **147.16** |
+| **목표(적정 수익성) 환율** | USD/JPY **152.22** |
+
+**헤지 비율 상승이 발동되는 두 가지 조건**:
+1. **Fed 제로금리 복귀**: 헤징 비용(단기 금리 차)이 극적으로 하락 → 헤징 수익성 회복 → 헤지 비율 자발적 상승
+2. **USD/JPY가 가정환율(~147) 하회**: 외화 자산 평가손 현실화 → 보수적 리스크 관리 차원에서 헤지 강제 추가
+
+→ 두 조건이 모두 충족되지 않는 한(2024년 8월 시점), 일본 생보사의 적극적 헤지 비율 상승 유인은 제한적. 단기 방향: **중립~소폭 엔화 긍정**.
 
 ## 관련 엔티티
 
 - [[entities/bis]] — BIS 데이터·연구에서 일본 생보사 플로우 추적; BIS Bulletin No. 105가 1차 출처
 - [[entities/taiwanese-life-insurers]] — 대만의 유사 기관 유형; 비슷한 헤지 비율 역학
+- [[entities/gpif]] — 일본의 또 다른 주요 기관투자자; 생보사와 달리 사실상 무헤지 운용
+- [[summaries/nomura-jpy-flow-special-240809]] — 가정환율·헤지 비율 트리거 분석 출처
+- [[summaries/bisbull105]] — 2025년 4월 에피소드에서 생보사의 사후 헤징 행태 분석

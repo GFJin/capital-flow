@@ -3,8 +3,8 @@ title: "FX 헤징"
 type: concept
 tags: [fx, portfolio-flow, bonds, equities, interest-rate, liquidity, foundational, well-established]
 created: 2026-04-11
-updated: 2026-04-11
-sources: ["raw/bisbull105.md"]
+updated: 2026-04-18
+sources: ["raw/bisbull105.md", "raw/240809_Sharp fall in USDJPY and investors reactions_Nomura.pdf"]
 confidence: high
 ---
 
@@ -49,6 +49,24 @@ FX 헤징이란 외국 통화로 표시된 자산을 보유할 때 발생하는 
 - **경기순응성**: 헤징 비용이 높을 때(달러 강세·미국 금리 고점 국면) 정작 달러 익스포저가 가장 위험한 시점에 헤징이 억제됨 — 취약성 누적.
 - **사후 헤징의 증폭 효과**: 사후적으로 헤지 비율을 높이면([[concepts/ex-post-hedging]]) 현물 FX 시장에 일방적 매도 압력이 발생해 환율 움직임을 증폭시킴.
 
+## 생보사 헤지 비율 억제의 구조적 반론
+
+Nomura(2024-08-09)는 일본 생보사가 헤지를 늘리지 않는 배경에 두 가지 구조적 논리가 있다고 분석:
+
+**반론 1 — 수익률 논리**:
+- 헤징 비용(≈ 단기 금리 차) 만큼 수익이 깎임
+- 달러 금리 > 엔화 금리인 환경에서는 헤징이 곧 수익률 희생
+- 규제 의무가 없는 한, 헤지 비율 자발적 상승의 유인이 제한됨
+
+**반론 2 — 가정환율 기준**:
+- 대형 생보사들의 손익 가정환율: USD/JPY **~147.16** (스팟), **~152.22** (목표 수익성)
+- USD/JPY가 가정환율 위에 있는 동안은 평가이익 발생 → 헤지 추가 유인 없음
+- 헤지 비율이 올라가려면 (a) Fed 제로금리 복귀 또는 (b) USD/JPY가 가정환율 하회라는 두 트리거 중 하나가 필요
+
+**정책 함의**:
+- 위기 시 헤지 비율이 갑자기 올라오면([[concepts/ex-post-hedging]]) 그 자체가 달러 약세를 증폭하는 구조
+- 정상 환경에서는 헤지 억제 → 달러 약세 국면 진입 시 집중적 헤지 추가가 쏟아지는 '취약성 내재' 패턴
+
 ## 관련 개념
 
 - [[concepts/ex-post-hedging]] — 사후 헤지 추가의 구체적 메커니즘과 비대칭적 시장 충격
@@ -60,3 +78,4 @@ FX 헤징이란 외국 통화로 표시된 자산을 보유할 때 발생하는 
 ## 출처
 
 - [[summaries/bisbull105]] — BIS Bulletin No. 105 (2025년 6월): 2025년 4월 에피소드의 1차 출처
+- [[summaries/nomura-jpy-flow-special-240809]] — Nomura (2024-08-09): 일본 생보사 가정환율, 헤지 비율 트리거 조건, Mrs. Watanabe 행태
