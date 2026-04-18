@@ -4,7 +4,7 @@ type: concept
 tags: [carry-trade, fx, japan, interest-rate, risk-appetite, portfolio-flow, deleveraging, cyclical, well-established]
 created: 2026-04-17
 updated: 2026-04-18
-sources: ["raw/20240417_B_20210092_852.pdf", "raw/Japan_FX_Capitulation_of_JPY_carry_Only_the_beginning_of_the_end-Japan_FX.pdf"]
+sources: ["raw/20240417_B_20210092_852.pdf", "raw/Japan_FX_Capitulation_of_JPY_carry_Only_the_beginning_of_the_end-Japan_FX.pdf", "raw/2024-08-09-Societe Generale-The Systematic Investor Report - Recent market turmoil _ Wha...-109778177.pdf"]
 confidence: high
 ---
 
@@ -98,3 +98,4 @@ Citi Research(2024-08-05)는 2024년 8월 청산이 과거 패턴과 다른 이�
 
 - `raw/20240417_B_20210092_852.pdf` — 교보증권 리서치센터, 2024-04-17
 - `raw/Japan_FX_Capitulation_of_JPY_carry_Only_the_beginning_of_the_end-Japan_FX.pdf` — Citi Research (Osamu Takashima 외), 2024-08-05
+- `raw/2024-08-09-Societe Generale-The Systematic Investor Report - Recent market turmoil _ Wha...-109778177.pdf` — SG Cross Asset Quant (Sandrine Ungari 외), 2024-08-09: **FX 캐리가 2024-08-05 퀀트 전략 중 최악 성과(-5%대). VNKY 70%, 닛케이 -12.5%, VIX 일간 상승폭 역대 2위(Volmageddon 이후) — 엔캐리 청산의 충격 규모를 퀀트 데이터로 확인**

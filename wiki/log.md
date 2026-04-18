@@ -20,6 +20,25 @@ Each entry follows this format:
 
 ---
 
+### 2026-04-18 — Ingest: raw/2024-08-09-Societe Generale-The Systematic Investor Report - Recent market turmoil.pdf
+
+- **Source/Trigger**: 사용자 명령 `ingest 2024-08-09-Societe Generale-The Systematic Investor Report...pdf`
+- **출처**: SG Cross Asset Quant (Sandrine Ungari 외 4인), 2024-08-09, 18페이지 정기 보고서
+- **Pages created**:
+  - `wiki/summaries/sg-systematic-investor-240809.md` — 요약 페이지 (신규)
+  - `wiki/concepts/cta-trend-following.md` — CTA/추세 추종 전략 개념 (신규)
+  - `wiki/concepts/tail-hedge.md` — 꼬리 위험 헤지 전략 개념 (신규)
+- **Pages updated**:
+  - `wiki/concepts/carry-trade-unwind.md` — SG 퀀트 데이터(FX 캐리 최악 성과, VIX 역대 2위) 추가, 출처 추가
+  - `wiki/concepts/crowded-trade.md` — AI 주식 과밀 포지션 청산(대형→소형 로테이션) 실증 사례 추가
+  - `wiki/index.md` — 신규 페이지 3개 등록, 통계 업데이트
+- **Notes**:
+  - Citi(2024-08-05)와 SG(2024-08-09)가 동일 이벤트를 다루나 관점이 다름: Citi는 엔캐리 청산 메커니즘·FX 전망, SG는 퀀트 전략 성과·CTA 포지셔닝. 두 보고서를 교차하면 2024년 8월 충격의 다차원적 이해 가능
+  - 2024-08-05 VIX 충격이 2018년 Volmageddon 이후 역대 2위임을 SG가 확인 — `quant-meltdown` 페이지에 맥락 연결 필요 (향후 업데이트 권장)
+  - 변동성 정점 이후 캐리 기회 증가 패턴은 `carry-vol-ratio` 페이지의 "When To Use" 섹션을 보완함
+
+---
+
 ### 2026-04-18 — Ingest: raw/Japan_FX_Capitulation_of_JPY_carry_Only_the_beginning_of_the_end-Japan_FX.pdf
 
 - **Source/Trigger**: 사용자 명령 `ingest Japan_FX_Capitulation_of_JPY_carry_Only_the_beginning_of_the_end-Japan_FX.pdf`

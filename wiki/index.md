@@ -40,6 +40,8 @@ Master catalog of all wiki pages. Every page in the wiki must have an entry here
 | [[concepts/yen-carry-trade]] | carry-trade, fx, japan, interest-rate, risk-appetite, portfolio-flow, dollar-cycle, well-established | high | 2026-04-18 |
 | [[concepts/carry-trade-unwind]] | carry-trade, fx, japan, interest-rate, risk-appetite, portfolio-flow, deleveraging, cyclical, well-established | high | 2026-04-18 |
 | [[concepts/carry-vol-ratio]] | carry-trade, fx, japan, interest-rate, risk-appetite, quantitative, cyclical, well-established | high | 2026-04-18 |
+| [[concepts/cta-trend-following]] | portfolio-flow, equities, fx, commodities, bonds, risk-appetite, liquidity, quantitative, cyclical, well-established | high | 2026-04-18 |
+| [[concepts/tail-hedge]] | equities, fx, risk-appetite, liquidity, quantitative, cyclical, advanced, well-established | high | 2026-04-18 |
 
 ## Entities
 
@@ -70,6 +72,7 @@ Master catalog of all wiki pages. Every page in the wiki must have an entry here
 | [[summaries/hedge-fund-industry-analysis]] | raw/헤지펀드 산업 분석 및 시장 역학 브리핑 보고서.md | 헤지펀드 구조·전략, 고금리 환경 이점, 2007년 퀀트 멜트다운, 과밀 거래 꼬리 리스크 | 2026-04-12 |
 | [[summaries/kyobo-yen-carry-unwind-240417]] | raw/20240417_B_20210092_852.pdf | 엔캐리 5차 청산 역사, 2024년 완만한 청산 전망, 리스크 5가지, 한국 증시 영향 | 2026-04-17 |
 | [[summaries/citi-jpy-carry-capitulation-240806]] | raw/Japan_FX_Capitulation_of_JPY_carry_Only_the_beginning_of_the_end-Japan_FX.pdf | 2024년 8월 JPY 캐리 청산 분석, carry/vol 비율, FX 개입 누적 효과, 리얼머니·레버리지 포지션, USDJPY 중장기 하락 전망 | 2026-04-18 |
+| [[summaries/sg-systematic-investor-240809]] | raw/2024-08-09-Societe Generale-The Systematic Investor Report - Recent market turmoil _ Wha...-109778177.pdf | VIX 역대 2위 충격, 퀀트 전략 성과(FX 캐리 최악), CTA 포지셔닝, 꼬리 헤지(SDV·DPR) 성과, 변동성 이후 캐리 기회 | 2026-04-18 |
 
 ## Syntheses
 
@@ -79,12 +82,12 @@ Master catalog of all wiki pages. Every page in the wiki must have an entry here
 
 ## 통계
 
-- **총 페이지 수**: 50
-- **개념**: 28
+- **총 페이지 수**: 53
+- **개념**: 30
 - **엔티티**: 10
-- **요약**: 11
+- **요약**: 12
 - **분석 종합**: 1
-- **인제스트된 출처**: 10
-- **신뢰도 high**: 44
+- **인제스트된 출처**: 11
+- **신뢰도 high**: 47
 - **신뢰도 medium**: 5
 - **신뢰도 low**: 0
