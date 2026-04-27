@@ -4,8 +4,8 @@ type: entity
 subtype: central-bank
 tags: [central-bank, japan, interest-rate, fx, carry-trade, dollar-cycle, developed-markets, quantitative, qualitative]
 created: 2026-04-17
-updated: 2026-04-17
-sources: ["raw/20240417_B_20210092_852.pdf"]
+updated: 2026-04-28
+sources: ["raw/20240417_B_20210092_852.pdf", "raw/bisbull90.pdf"]
 confidence: high
 ---
 
@@ -42,6 +42,7 @@ confidence: high
 | 2016.02 | 마이너스 금리(-0.1%) 도입 | 역설적으로 엔화 강세 유발 → 4차 청산 가속 |
 | 2022~2023 | YCC 밴드 확대, 사실상 YCC 유연화 | 엔화 약세 완화, 청산 우려 부상 |
 | 2024.03 | 금리 -0.1% → 0.1% 인상 | 엔캐리 청산 촉매 요인으로 작용 가능 |
+| 2024.07 | 추가 금리 인상 (예상보다 매파적), 7월 중순 FX 개입 루머 | 엔화 절하 추세 반전의 직접 계기. 2024년 8월 5일 TOPIX -12% 시장 격변 및 글로벌 캐리 청산 촉발 — BIS Bulletin No. 90이 명시한 1차 촉발 요인 |
 
 ## Related Entities
 

@@ -4,7 +4,7 @@ type: concept
 tags: [liquidity, portfolio-flow, interest-rate, risk-appetite, us, developed-markets, structural, cyclical, advanced, well-established]
 created: 2026-04-11
 updated: 2026-04-12
-sources: ["raw/bisbull106.pdf", "raw/비은행 금융중개의 취약성과 시스템 리스크 관리 방안.md"]
+sources: ["raw/bisbull106.pdf", "raw/비은행 금융중개의 취약성과 시스템 리스크 관리 방안.md", "raw/bisbull90.pdf"]
 confidence: high
 ---
 
@@ -25,6 +25,8 @@ confidence: high
 - BDC의 평균 D/E 비율: 약 30%(2010년경) → 90% 이상(2025년) — 15년간 **3배 증가**.
 - 분기별 자산 변화를 분석하면, **부채 변화**가 자산 변화의 대부분을 설명하고 자기자본은 경직적(sticky).
 - 즉, BDC의 대차대조표 확장·축소는 자기자본이 아닌 부채(주로 은행 신용한도)가 주도.
+
+**2024년 8월 실증** (BIS Bulletin No. 90): 2024년 8월 5일 VIX가 역사적 S&P 500 수익률-VIX 관계를 훨씬 초과하는 수준으로 급등. 이는 레버리지 포지션의 경기순응적 청산이 초기 변동성 충격을 스스로 증폭시켰음을 시사한다. JSCC(일본 증권결제기구)는 주가지수 선물 롱 개시증거금을 **60~80% 인상**, JGB 선물 숏 증거금을 **43% 인상** — CCP 증거금 인상이 강제 청산을 추가 촉발했다. 미국 헤지펀드 섹터 집계 레버리지는 이벤트 직전까지 상승 추세였으며, 이벤트 직후 일부 포지션이 빠르게 재건됨.
 
 **2025년 4월 실증**: "해방의 날(Liberation Day)" 충격(2025년 4월 2일 관세 발표)에서 **고레버리지 BDC**가 **저레버리지 BDC** 대비 더 큰 주가 하락을 경험. 고레버리지 구조는 동일한 자산 가치 하락에 대해 자기자본 잠식 리스크가 더 크고, 이를 반영하여 시장에서 더 큰 할인이 적용됨.
 
@@ -67,6 +69,7 @@ confidence: high
 
 ## 출처
 
+- [[summaries/bisbull90]] — BIS Bulletin No. 90 (2024년 8월): VIX 스파이크의 역사적 S&P 관계 이탈, CCP 증거금 60~80% 인상, 헤지펀드 레버리지 사전 누적 실증
 - [[summaries/bisbull106]] — BIS Bulletin No. 106 (2025년 7월): BDC 레버리지 추이, 경기순응성 실증, 2025년 4월 에피소드
 - [[summaries/nbfi-systemic-risk]] — IMF GFSR·ECB 분석 (2024~2025): 헤지펀드 OTC 파생상품을 통한 "숨겨진 레버리지(hidden leverage)"가 대차대조표에 포착되지 않는 시스템 리스크 강조
 - [[summaries/hedge-fund-industry-analysis]] — Khandani & Lo 퀀트 멜트다운 연구: 과밀 거래 청산이 경기순응적 레버리지 해소와 결합해 피드백 루프를 형성하는 2007년 실증 사례

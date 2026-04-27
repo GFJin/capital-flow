@@ -20,6 +20,26 @@ Each entry follows this format:
 
 ---
 
+### 2026-04-28 — Ingest: raw/bisbull90.pdf
+
+- **Source/Trigger**: 사용자 명령 `ingest https://www.bis.org/publ/bisbull90.pdf`
+- **출처**: BIS Bulletin No. 90, Matteo Aquilina·Marco Lombardi·Andreas Schrimpf·Vladyslav Sushko, 2024-08-27
+- **Pages created**:
+  - `wiki/summaries/bisbull90.md` — 2024년 8월 시장 격변과 캐리 청산 요약
+- **Pages updated**:
+  - `wiki/concepts/yen-carry-trade.md` — BIS 5단계 규모 추정 방법론(¥2조~¥80조+), 캐리-리스크 비율 데이터 추가
+  - `wiki/concepts/carry-trade-unwind.md` — 6차 청산(2024년 8월) 케이스 추가: TOPIX -12%, VIX 60+, 통화별 절상·절하, CCP 증거금, 모멘텀 전략 기여
+  - `wiki/concepts/procyclical-leverage.md` — 2024년 8월 VIX 초과 스파이크, JSCC 증거금 60~80% 인상 실증 추가
+  - `wiki/entities/boj.md` — 2024년 7월 금리 인상(매파) 및 FX 개입 루머가 촉발 요인임을 Historical Interventions에 추가
+  - `wiki/index.md` — 신규 요약 등록, 통계 업데이트
+- **Notes**:
+  - 2026-04-17 교보증권 리포트는 "완만한 청산" 전망을 제시했으나, 실제 2024년 8월은 단기간 급진적 특성을 보임 — 두 소스 간 결과 불일치. carry-trade-unwind 페이지에 6차 케이스로 명시.
+  - BIS는 ¥40조($2,500억)를 "하향 편의가 있는 중간 추정치"로 제시. 교보증권 리포트에서 인용하는 규모 추정치($200~300억)와 차원이 다름 — 측정 대상(선물 vs. OTC+대출 전체)이 다르기 때문.
+  - 오프쇼어 위안화(CNH) 절상이 이례적 사례로 언급됨 — 중국 자본흐름과의 연계 가능성. 향후 별도 탐구 고려.
+  - BIS 직접 출처이므로 confidence: high 적용.
+
+---
+
 ### 2026-04-17 — Ingest: raw/20240417_B_20210092_852.pdf
 
 - **Source/Trigger**: 사용자 명령 `ingest 20240417_B_20210092_852.pdf`

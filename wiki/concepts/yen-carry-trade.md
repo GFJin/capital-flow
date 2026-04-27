@@ -3,8 +3,8 @@ title: "엔 캐리 트레이드 (Yen Carry Trade)"
 type: concept
 tags: [carry-trade, fx, japan, interest-rate, risk-appetite, portfolio-flow, dollar-cycle, well-established]
 created: 2026-04-17
-updated: 2026-04-17
-sources: ["raw/20240417_B_20210092_852.pdf"]
+updated: 2026-04-28
+sources: ["raw/20240417_B_20210092_852.pdf", "raw/bisbull90.pdf"]
 confidence: high
 ---
 
@@ -47,6 +47,24 @@ confidence: high
 **주요 조달 통화(funding currency)**: 엔화, 달러, 스위스 프랑
 **주요 투자 통화(target currency)**: 호주 달러, 뉴질랜드 달러, 신흥국 통화, 고금리 국면의 달러·유로
 
+### 엔화 캐리 트레이드 규모 추정 방법론 (BIS Bulletin No. 90, 2024년 8월 기준)
+
+단일 지표로 전체 규모를 파악하기 어려우므로 BIS는 다음 5단계 접근법을 제시한다. 수치는 2024년 3월~7월 기준이며, 아래로 갈수록 포괄 범위가 넓어진다.
+
+| 지표 | 규모 | 성격 |
+|------|------|------|
+| CME 엔화 선물 투기적 순매도 | ~¥2조 (~$140억) | 고빈도, 매우 부분적 |
+| 헤지펀드 OTC 통화 선도 추정 상한 | ~$1,600억 | 계산식: BIS OTC 통계 × 헤지펀드 비중 |
+| 일본 소재 외국계 은행 본점 송금 | ~¥14조 (~$900억) | 인터뱅크 캐리 조달의 대리변수 |
+| BIS 글로벌 유동성: 일본 외 비은행 엔화 대출 | **~¥40조 ($2,500억)** | BIS 권장 기준치, 2024년 3월 기준 |
+| BIS 광의 (오프쇼어 센터 포함 채권 포함) | >¥80조 (~$5,000억) | 케이만 등 특수목적법인 포함 |
+
+**BIS 권고 기준치**: ¥40조 ($2,500억) — 데이터 공백으로 인해 하향 편의가 있어 실제는 더 클 가능성.
+
+### 캐리-리스크 비율 (Carry-to-Risk Ratio)
+
+통화 선물 금리차(carry)를 FX 옵션 내재변동성(risk)으로 나눈 지표. 2024년 1분기에 역대 최고치를 기록한 뒤 BOJ 긴축 개시와 함께 급격히 하락. 이 비율이 높은 시기가 곧 포지션 누적과 집중 리스크 고조 시기에 해당한다.
+
 ## When To Use
 
 - 달러/엔 환율 방향성 분석 시 기준 프레임워크
@@ -73,3 +91,4 @@ confidence: high
 ## Sources
 
 - `raw/20240417_B_20210092_852.pdf` — 교보증권 리서치센터, 2024-04-17
+- `raw/bisbull90.pdf` — BIS Bulletin No. 90 (Aquilina, Lombardi, Schrimpf, Sushko), 2024-08-27. 캐리 트레이드 규모 추정 5단계 방법론, 캐리-리스크 비율, 2024년 8월 포지션 규모 공식 추정치의 1차 출처.
