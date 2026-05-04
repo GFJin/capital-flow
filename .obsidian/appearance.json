@@ -1,5 +1,6 @@
 {
   "cssTheme": "Minimal",
-  "interfaceFontFamily": "Pretendard",
-  "textFontFamily": "Pretendard"
+  "interfaceFontFamily": "MesloLGS NF",
+  "textFontFamily": "Pretendard",
+  "monospaceFontFamily": "Fira Code Retina"
 }

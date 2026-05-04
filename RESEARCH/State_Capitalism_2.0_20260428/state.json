@@ -1,0 +1,64 @@
+{
+  "session_id": "State_Capitalism_2.0_20260428",
+  "topic": "State Capitalism 2.0",
+  "created_at": "2026-04-28T00:00:00Z",
+  "updated_at": "2026-04-28T12:00:00Z",
+  "status": "COMPLETED",
+  "current_phase": 7,
+  "requirements": {
+    "focus": ["definition_evolution", "key_players", "capital_flow_implications", "geopolitical_impact", "western_response", "future_trajectory"],
+    "output_format": "comprehensive_report_and_wiki_ingest",
+    "audience": "macro_investor_analyst",
+    "sources": {"min_quality": "B"},
+    "special_requirements": ["save_to_RESEARCH_folder", "also_wiki_ingest_to_capital_flow_wiki"]
+  },
+  "plan": {
+    "subtopics": [
+      "1. Definition & Evolution: State Capitalism 2.0 vs 1.0",
+      "2. China Model: Party-state capitalism, SOEs, tech champions, BRI",
+      "3. Gulf States & SWFs: Saudi Vision 2030, Abu Dhabi, QIA, GCC",
+      "4. Russia & Authoritarian Capitalism: sanctions response, energy leverage",
+      "5. Geopolitical & Capital Flow Implications: de-dollarization, FDI screening, supply chain",
+      "6. Western Industrial Policy Revival: IRA, CHIPS Act, EU subsidies",
+      "7. Future Trajectory & Investment Implications"
+    ]
+  },
+  "progress": {
+    "phase_1": "completed",
+    "phase_2": "completed",
+    "phase_3": "completed",
+    "phase_4": "completed",
+    "phase_5": "completed",
+    "phase_6": "completed",
+    "phase_7": "completed"
+  },
+  "sources_count": 80,
+  "artifacts": {
+    "executive_summary": "outputs/00_executive_summary.md",
+    "full_report": [
+      "outputs/01_full_report/01_introduction_and_definition.md",
+      "outputs/01_full_report/02_china_model.md",
+      "outputs/01_full_report/03_gulf_swfs.md",
+      "outputs/01_full_report/04_geopolitical_capital_flows.md",
+      "outputs/01_full_report/05_western_response.md",
+      "outputs/01_full_report/06_investment_outlook.md"
+    ],
+    "wiki_pages_created": [
+      "wiki/concepts/de-dollarization.md",
+      "wiki/entities/public-investment-fund.md",
+      "wiki/entities/mubadala.md",
+      "wiki/syntheses/state-capitalism-models-comparison.md"
+    ],
+    "wiki_pages_updated": [
+      "wiki/concepts/state-capitalism.md",
+      "wiki/entities/china.md"
+    ],
+    "agent_results": [
+      "artifacts/agent_results/agent1_definition_western_policy.md",
+      "artifacts/agent_results/agent2_china_model.md",
+      "artifacts/agent_results/agent3_gulf_swfs.md",
+      "artifacts/agent_results/agent4_geopolitical_capital_flows.md"
+    ]
+  },
+  "errors": []
+}

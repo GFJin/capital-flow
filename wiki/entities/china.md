@@ -1,9 +1,9 @@
 ---
 title: "중국 (China)"
 type: entity
-tags: [china, portfolio-flow, fdi, fx, bonds, equities, emerging-markets, interest-rate, central-bank, structural, cyclical]
+tags: [china, portfolio-flow, fdi, fx, bonds, equities, emerging-markets, interest-rate, central-bank, structural, cyclical, sanctions]
 created: 2026-04-12
-updated: 2026-04-12
+updated: 2026-04-28
 sources: ["raw/260325-중국+내외국인.pdf"]
 confidence: high
 ---
@@ -53,10 +53,41 @@ confidence: high
 | 대미 증권투자 잔액 | 1.15조달러 | 2025년말 (2020년말 1.5조에서 감소) |
 | QDII 펀드 AUM | 9,390억위안(1,319억달러) | 2025년 10월말 |
 
+## 국가 자본주의 프로파일 (2026년 4월 기준)
+
+### 당-국가 통제 구조
+
+시진핑 하에서 중국은 당이 모든 경제 주체를 감독하는 **당-국가 자본주의 모델**을 구축했다:
+- **SOE 위상**: 영업 수익 ¥85.73조(GDP의 68%); Fortune 500 중 97/142개; 고용 5,612만 명
+- **당 조직 침투**: 2021년 기준 최대 500개 민간기업 전체에 당 세포 "완전 침투"
+- **법적 기반**: 2017년 국가정보법 제7조 — 모든 조직은 국가정보활동을 지원할 의무
+- **e-CNY (디지털 위안)**: 2026년 1월 예금 기능 프레임워크 발효; 2025년 11월 기준 누적 거래 34.8억 건, ¥16.7조 (~$2.37조); **프로그래밍 가능성·거래 완전 투명성·크로스보더 통제** 능력 보유
+
+### MCF·CMC 리스트 리스크
+
+**군민융합(MCF)**: 전략 섹터 민간기업이 PLA와 기술·데이터·인력 공유 의무. 미국 DoD CMC 리스트:
+- 2025년 1월: CATL, 텐센트, COSCO 등 50개+ 추가 (총 76개)
+- 2025년 10월: 알리바바, 바이두, BYD, WuXi AppTec 추가
+- **2026년 6월 30일**: DoD 직접 조달 금지; **2027년 6월 30일**: 공급망 간접 조달 금지
+
+### 2026년 4월 반제재 법규
+
+- **공급망 안보 규정** (2026년 4월 7일 발효): 중국 내 기업은 공급망 의존성 공개 및 안보 심사 의무
+- **역외 관할권 대응 규정** (2026년 4월 13일 발효): 다국적 기업은 미국 제재 준수와 중국 반제재 규정 사이에서 진정한 이진 컴플라이언스 딜레마에 직면
+- 중국 신뢰할 수 없는 엔티티 리스트 지정: 67건 (2025년) vs. 3건 (2024년)
+
+### 민간 부문 회복 vs. 구조적 취약성
+
+- 민간기업 시총 비중: 2021년 중반 55% → 2024년 중반 33.5% (21.5%p 하락)
+- 2025년 2월 시진핑-마윈 심포지엄: 전술적 해빙이지 구조적 변화 아님
+- 2025년 4월 민간경제 촉진법: 예일 로스쿨 — "좋은 의도, 약한 책임"
+- PIIE (2025~2026): 민간 부문 회복은 "신경제" (EV, AI, 첨단 제조) 주도 — 플랫폼 기술은 여전히 타이트한 규제 하
+
 ## Related Entities
 
 - [[entities/kcif]] — KCIF 분석의 주요 대상국
 - [[entities/bis]] — 중국 국제결제·외환 통계 출처
+- [[entities/public-investment-fund]] — GCC SWF의 대중국 투자 감소 ($103억→$43억, 2024→2025)
 
 ## 관련 개념
 
@@ -66,3 +97,5 @@ confidence: high
 - [[concepts/dollar-cycle]] — 달러 강세가 중국 자본흐름에 미치는 영향
 - [[concepts/rollover-risk]] — NCD 단기자금 이탈 구조
 - [[concepts/hedge-ratio]] — 환헤지 비용과 투자 유인의 연계
+- [[concepts/state-capitalism]] — 중국 당-국가 자본주의 모델 상세
+- [[concepts/de-dollarization]] — e-CNY, CIPS, mBridge를 통한 달러 이탈 시도

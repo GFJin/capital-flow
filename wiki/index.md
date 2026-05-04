@@ -1,7 +1,7 @@
 ---
 title: "Knowledge Base Index"
 type: index
-updated: 2026-04-12
+updated: 2026-04-28
 ---
 
 # Knowledge Base Index
@@ -39,6 +39,7 @@ Master catalog of all wiki pages. Every page in the wiki must have an entry here
 | [[concepts/crowded-trade]] | equities, portfolio-flow, risk-appetite, liquidity, structural, cyclical | medium | 2026-04-12 |
 | [[concepts/yen-carry-trade]] | carry-trade, fx, japan, interest-rate, risk-appetite, portfolio-flow, dollar-cycle, well-established | high | 2026-04-17 |
 | [[concepts/carry-trade-unwind]] | carry-trade, fx, japan, interest-rate, risk-appetite, portfolio-flow, deleveraging, cyclical, well-established | high | 2026-04-17 |
+| [[concepts/de-dollarization]] | fx, dollar-cycle, central-bank, emerging-markets, china, sanctions, structural, well-established | medium | 2026-04-28 |
 
 ## Entities
 
@@ -54,6 +55,8 @@ Master catalog of all wiki pages. Every page in the wiki must have an entry here
 | [[entities/imf]] | 국제금융기구 (신뢰 출처) | bonds, portfolio-flow, fx, interest-rate, emerging-markets, developed-markets | 2026-04-12 |
 | [[entities/ecb]] | central-bank (유로존) | bonds, fx, interest-rate, inflation, central-bank, europe | 2026-04-12 |
 | [[entities/boj]] | central-bank (일본) | central-bank, japan, interest-rate, fx, carry-trade, dollar-cycle | 2026-04-17 |
+| [[entities/public-investment-fund]] | market-participant (국부펀드) | portfolio-flow, fdi, emerging-markets, real-estate, equities, private-equity, structural | 2026-04-28 |
+| [[entities/mubadala]] | market-participant (국부펀드) | portfolio-flow, fdi, private-equity, equities, real-estate, us, asia, structural | 2026-04-28 |
 
 ## Summaries
 
@@ -75,15 +78,16 @@ Master catalog of all wiki pages. Every page in the wiki must have an entry here
 | 페이지 | 비교 대상 | 생성일 |
 |--------|---------|--------|
 | [[syntheses/asia-dollar-exposure-strategies]] | 일본 생보사·GPIF·대만 생보사·중국 내국인 vs. 달러 사이클 | 2026-04-12 |
+| [[syntheses/state-capitalism-models-comparison]] | 중국 당-국가 vs. 걸프 SWF vs. 서방 산업 정책 — 자본흐름 시사점 | 2026-04-28 |
 
 ## 통계
 
-- **총 페이지 수**: 49
-- **개념**: 27
-- **엔티티**: 10
+- **총 페이지 수**: 54
+- **개념**: 28 (+de-dollarization; state-capitalism 대폭 업데이트)
+- **엔티티**: 12 (+PIF, +Mubadala; china 업데이트)
 - **요약**: 11
-- **분석 종합**: 1
+- **분석 종합**: 2 (+state-capitalism-models-comparison)
 - **인제스트된 출처**: 10
-- **신뢰도 high**: 43
-- **신뢰도 medium**: 5
+- **신뢰도 high**: 48
+- **신뢰도 medium**: 6
 - **신뢰도 low**: 0

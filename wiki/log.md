@@ -20,6 +20,32 @@ Each entry follows this format:
 
 ---
 
+### 2026-04-28 — Deep Research: State Capitalism 2.0
+
+- **Source/Trigger**: 사용자 `/deep-research State Capitalism 2.0` 명령; 4개 병렬 리서치 에이전트 + 80개+ 소스; 결과물: `RESEARCH/State_Capitalism_2.0_20260428/`
+- **Pages created**:
+  - `wiki/concepts/de-dollarization.md` — 탈달러화 개념 (신규)
+  - `wiki/entities/public-investment-fund.md` — 사우디 PIF 엔티티 (신규)
+  - `wiki/entities/mubadala.md` — 아부다비 무바달라 엔티티 (신규)
+  - `wiki/syntheses/state-capitalism-models-comparison.md` — 세 모델 비교 분석 (신규)
+- **Pages updated**:
+  - `wiki/concepts/state-capitalism.md` — Bremmer/Alami 학술 프레임, 세 모델(중국·걸프·서방) 비교표, MCF·CMC 리스트·e-CNY 추가, 신뢰 출처 기반 데이터 대폭 보강
+  - `wiki/entities/china.md` — 당-국가 자본주의 프로파일 섹션 추가 (SOE 데이터, MCF, e-CNY, 4월 2026 반제재 법규, 민간기업 회복 vs. 구조적 취약성)
+  - `wiki/index.md` — 신규 페이지 등록, 통계 업데이트 (총 54페이지)
+- **연구 범위**:
+  - 정의·진화: Alami & Dixon State Capitalism 3.0 프레임, Sullivan "New Washington Consensus" (2023)
+  - 중국 모델: SASAC SOE 데이터, PIIE 민간기업 회복, Green FDC BRI 2025, PBOC e-CNY, DoD CMC 리스트, CSET MCF 분석
+  - 걸프 SWF: PIF Vision 2030 연간보고서 2025, 무바달라 연간보고서 2024, Global SWF GeoCoded 2025, 아부다비 L'IMAD 출범
+  - 지정학·자본흐름: IMF COFER, FRB FEDS Notes, McKinsey MGI, UNCTAD, Brookings, Morgan Lewis (중국 4월 2026 법규)
+  - 서방 산업정책: Eurasia Group Top Risk 2026, CFR/Weiss, EU Industrial Accelerator Act (Mayer Brown), CHIPS Act Silicon Sovereignty
+- **Notes**:
+  - BRI 정책 대출($90억/년 피크 →2021년 $50억)에서 민간 기업 주도 자기자본 투자로의 전환이 2025년 명확히 확인됨
+  - 사우디 PIF의 재정 균형 유가($85~90/bbl) 대비 2025년 유가($65/bbl) 괴리로 인한 구조적 자본 제약이 Vision 2030의 실질적 재조정을 강제
+  - 중국 4월 2026 역외 관할권 대응 규정 = 미국 제재와의 진정한 이진 컴플라이언스 딜레마 — MNC 운영 리스크 즉각적 실현
+  - 달러 SWIFT 비중 48%, CIPS $24.45조이나 위안화 SWIFT 3%: 인프라 확장 vs. 실질 채택 간 큰 간극
+
+---
+
 ### 2026-04-28 — Ingest: raw/bisbull90.pdf
 
 - **Source/Trigger**: 사용자 명령 `ingest https://www.bis.org/publ/bisbull90.pdf`
